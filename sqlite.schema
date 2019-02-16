@@ -1,0 +1,33 @@
+
+
+DROP TABLE IF EXISTS item;
+CREATE TABLE item(
+	id INT PRIMARY KEY,
+	name TEXT NOT NULL,
+	time DECIMAL(5,2) NOT NULL DEFAULT 0
+);
+
+
+DROP TABLE IF EXISTS itemReqs;
+CREATE TABLE itemReqs(
+	itemID INT REFERENCES item(id),
+	reqID INT REFERENCES item(id)
+);
+
+
+DROP TABLE IF EXISTS facility;
+CREATE TABLE facility(
+	id INT PRIMARY KEY,
+	name TEXT NOT NULL
+);
+INSERT INTO facility(name) values("Assembling Machine 2+");
+INSERT INTO facility(name) values("Assembling Machine 3+");
+INSERT INTO facility(name) values("Oil Refinery");
+INSERT INTO facility(name) values("Chemical Plant");
+
+
+DROP TABLE IF EXISTS itemFacs;
+CREATE TABLE itemFacs(
+	itemID INT REFERENCES item(id),
+	facID INT REFERENCES facility(id)
+);
