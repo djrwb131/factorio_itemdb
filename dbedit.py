@@ -7,9 +7,115 @@ class App(tk.Frame):
 
         self.db=sql.connect("itemdb.s3db")
         
-        self.grid(sticky=tk.N+tk.S+tk.E+tk.W)
+        self.grid(sticky=tk.N+tk.S)
         self.createWidgets()
 
+
+    def createItemNameRow(self,ri):
+        self.item_NameSVar = tk.StringVar()
+        self.item_NameLabel = tk.Label(self,text="Item Name:")
+        self.item_NameLabel.grid(row=ri,column=0,columnspan=2,sticky=tk.W+tk.N)
+        self.item_NameEntry = tk.Entry(self, textvariable=self.item_NameSVar)
+        self.item_NameEntry.grid(row=ri,column=2,columnspan=2,sticky=tk.W+tk.E+tk.N)
+        
+
+    def createItemTimeRow(self,ri):
+        self.item_TimeSVar = tk.StringVar()
+        self.item_TimeLabel = tk.Label(self,text="Prod Time:")
+        self.item_TimeLabel.grid(row=ri,column=0,columnspan=2,sticky=tk.W+tk.N)
+        self.item_TimeEntry = tk.Entry(self, textvariable=self.item_TimeSVar)
+        self.item_TimeEntry.grid(row=ri,column=2,columnspan=2,sticky=tk.W+tk.E+tk.N)
+
+
+    def createItemButtonsRow(self,ri):
+        self.item_DelItemButton = tk.Button(self, text="Delete Item", command=self.delItem)
+        self.item_DelItemButton.grid(row=ri,column=0,columnspan=2,sticky=tk.N)
+        
+        self.item_AddItemButton = tk.Button(self, text='Add Item', command=self.addItem)
+        self.item_AddItemButton.grid(row=ri,column=2,columnspan=2,sticky=tk.N)
+
+
+    def createItemReqItemIDRow(self,ri):
+        self.itemReq_ItemIDSVar = tk.StringVar()
+        self.itemReq_ItemIDLabel = tk.Label(self,text="Item ID:")
+        self.itemReq_ItemIDLabel.grid(row=ri,column=0,columnspan=2,sticky=tk.W+tk.N)
+        self.itemReq_ItemIDEntry = tk.Entry(self, textvariable=self.itemReq_ItemIDSVar)
+        self.itemReq_ItemIDEntry.grid(row=ri,column=2,columnspan=2,sticky=tk.W+tk.E+tk.N)
+
+
+    def createItemReqReqIDRow(self,ri):
+        self.itemReq_ReqIDSVar = tk.StringVar()
+        self.itemReq_ReqIDLabel = tk.Label(self,text="Req ID:")
+        self.itemReq_ReqIDLabel.grid(row=ri,column=0,columnspan=2,sticky=tk.W+tk.N)
+        self.itemReq_ReqIDEntry = tk.Entry(self, textvariable=self.itemReq_ReqIDSVar)
+        self.itemReq_ReqIDEntry.grid(row=ri,column=2,columnspan=2,sticky=tk.N+tk.E+tk.W)
+
+
+    def createItemReqAmtRow(self,ri):
+        self.itemReq_AmtSVar = tk.StringVar()
+        self.itemReq_AmtLabel = tk.Label(self,text="Amount:")
+        self.itemReq_AmtLabel.grid(row=ri,column=0,columnspan=2,sticky=tk.W+tk.N)
+        self.itemReq_AmtEntry = tk.Entry(self, textvariable=self.itemReq_AmtSVar)
+        self.itemReq_AmtEntry.grid(row=ri,column=2,columnspan=2,sticky=tk.N+tk.E+tk.W)
+
+
+    def createItemReqButtonsRow(self,ri):
+        self.itemReq_DeleteReqButton = tk.Button(self, text="Delete Req", command=self.delReq)
+        self.itemReq_DeleteReqButton.grid(row=ri,column=0,columnspan=2,sticky=tk.N)
+        
+        self.itemReq_AddReqButton = tk.Button(self, text="Add Req", command=self.addReq)
+        self.itemReq_AddReqButton.grid(row=ri,column=2,columnspan=2,sticky=tk.N)
+
+        
+    def createSciCheckboxTopRow(self,ri):
+        self.calc_RedSciIVar        =  tk.IntVar()
+        self.calc_RedSciCheckbox    = tk.Checkbutton(self, text="Red",variable=self.calc_RedSciIVar)
+        self.calc_RedSciCheckbox.grid(row=ri,column=0,sticky=tk.W)
+
+        self.calc_GreenSciIVar      = tk.IntVar()
+        self.calc_GreenSciCheckbox  = tk.Checkbutton(self, text="Green",variable=self.calc_GreenSciIVar)
+        self.calc_GreenSciCheckbox.grid(row=ri,column=1,sticky=tk.W)
+
+        self.calc_BlueSciIVar       = tk.IntVar()
+        self.calc_BlueSciCheckbox   = tk.Checkbutton(self, text="Blue",variable=self.calc_BlueSciIVar)
+        self.calc_BlueSciCheckbox.grid(row=ri,column=2,sticky=tk.W)
+
+        self.calc_GreySciIVar       = tk.IntVar()
+        self.calc_GreySciCheckbox   = tk.Checkbutton(self, text="Grey",variable=self.calc_GreySciIVar)
+        self.calc_GreySciCheckbox.grid(row=ri,column=3,sticky=tk.W)
+
+
+    def createSciCheckboxBottomRow(self,ri):
+        self.calc_PurpleSciIVar     = tk.IntVar()
+        self.calc_PurpleSciCheckbox = tk.Checkbutton(self, text="Purple",variable=self.calc_PurpleSciIVar)
+        self.calc_PurpleSciCheckbox.grid(row=ri,column=0,sticky=tk.W)
+
+        self.calc_YellowSciIVar     = tk.IntVar()
+        self.calc_YellowSciCheckbox = tk.Checkbutton(self, text="Yellow",variable=self.calc_YellowSciIVar)
+        self.calc_YellowSciCheckbox.grid(row=ri,column=1,sticky=tk.W)
+
+        self.calc_WhiteSciIVar      = tk.IntVar()
+        self.calc_WhiteSciCheckbox  = tk.Checkbutton(self, text="White",variable=self.calc_WhiteSciIVar)
+        self.calc_WhiteSciCheckbox.grid(row=ri,column=2,sticky=tk.W)
+
+
+    def createItemListboxColumn(self,top,ri):
+        self.item_ItemListboxSVar = tk.StringVar()
+        self.item_ItemListboxYScroll = tk.Scrollbar(self,orient=tk.VERTICAL)
+        self.item_ItemListboxYScroll.grid(row=top,rowspan=ri,column=5,sticky=tk.E+tk.W+tk.N+tk.S)
+        self.item_ItemListbox = tk.Listbox(self,listvariable=self.item_ItemListboxSVar,yscrollcommand=self.item_ItemListboxYScroll.set)
+        self.item_ItemListbox.grid(row=top,rowspan=ri,column=4,sticky=tk.N+tk.S+tk.E+tk.W)
+        self.item_ItemListboxYScroll['command'] = self.item_ItemListbox.yview
+
+
+    def createItemReqListboxColumn(self,top,ri):
+        self.itemReq_ReqListboxSVar = tk.StringVar()
+        self.itemReq_ReqListboxYScroll = tk.Scrollbar(self,orient=tk.VERTICAL)
+        self.itemReq_ReqListboxYScroll.grid(row=top,rowspan=ri,column=7,sticky=tk.E+tk.W+tk.N+tk.S)
+        self.itemReq_ReqListbox = tk.Listbox(self,listvariable=self.itemReq_ReqListboxSVar,yscrollcommand=self.itemReq_ReqListboxYScroll.set)
+        self.itemReq_ReqListbox.grid(row=top,rowspan=ri,column=6,sticky=tk.N+tk.S+tk.E+tk.W)
+        self.itemReq_ReqListboxYScroll['command'] = self.itemReq_ReqListbox.yview        
+        
 
     def createWidgets(self):
         self.master.title('Factorio Item Database')
@@ -30,68 +136,41 @@ class App(tk.Frame):
 
         # row index
         ri=0
-
-        # item name row
-        self.item_NameSVar = tk.StringVar()
-        self.item_NameLabel = tk.Label(self,text="Item Name:")
-        self.item_NameLabel.grid(row=ri,column=0,sticky=tk.W+tk.N)
-        self.item_NameEntry = tk.Entry(self, textvariable=self.item_NameSVar)
-        self.item_NameEntry.grid(row=ri,column=1,sticky=tk.W+tk.E+tk.N)
-        ri+=1
-
-
-        # item production time row
-        self.item_TimeSVar = tk.StringVar()
-        self.item_TimeLabel = tk.Label(self,text="Prod Time:")
-        self.item_TimeLabel.grid(row=1,column=0,sticky=tk.W+tk.N)
-        self.item_TimeEntry = tk.Entry(self, textvariable=self.item_TimeSVar)
-        self.item_TimeEntry.grid(row=1,column=1,sticky=tk.W+tk.E+tk.N)
-        ri+=1
-
-
-        # delete, add, item buttons row
-        self.item_DelItemButton = tk.Button(self, text="Delete Item", command=self.delItem)
-        self.item_DelItemButton.grid(row=ri,column=0,sticky=tk.N)
         
-        self.item_AddItemButton = tk.Button(self, text='Add Item', command=self.addItem)
-        self.item_AddItemButton.grid(row=ri,column=1,sticky=tk.N)
+        self.createItemNameRow(ri)
+        ri+=1
+        self.createItemTimeRow(ri)
+        ri+=1
+        self.createItemButtonsRow(ri)
+        ri+=1
+        self.createItemReqItemIDRow(ri)
+        ri+=1
+        self.createItemReqReqIDRow(ri)
+        ri+=1
+        self.createItemReqAmtRow(ri)
+        ri+=1
+        self.createItemReqButtonsRow(ri)
+        ri+=1
+        self.createSciCheckboxTopRow(ri)
+        ri+=1
+        self.createSciCheckboxBottomRow(ri)
         ri+=1
 
 
-        # item production requirement row (itemID)
-        self.itemReq_ItemIDSVar = tk.StringVar()
-        self.itemReq_ItemIDLabel = tk.Label(self,text="Item ID:")
-        self.itemReq_ItemIDLabel.grid(row=ri,column=0,sticky=tk.N)
-        self.itemReq_ItemIDEntry = tk.Entry(self, textvariable=self.itemReq_ItemIDSVar)
-        self.itemReq_ItemIDEntry.grid(row=ri,column=1,sticky=tk.W+tk.E+tk.N)
+        # calculation widgets
+        self.calc_LabAmtSVar = tk.StringVar()
+        self.calc_LabAmtLabel = tk.Label(self,text="Number of labs: ")
+        self.calc_LabAmtLabel.grid(row=ri,column=0,columnspan=3)
+        self.calc_LabAmtEntry = tk.Entry(self,textvariable=self.calc_LabAmtSVar)
+        self.calc_LabAmtEntry.grid(row=ri,column=3,columnspan=1)
         ri+=1
 
-
-        # item production requirement row (reqID)
-        self.itemReq_ReqIDSVar = tk.StringVar()
-        self.itemReq_ReqIDLabel = tk.Label(self,text="Req ID:")
-        self.itemReq_ReqIDLabel.grid(row=ri,column=0,sticky=tk.N)
-        self.itemReq_ReqIDEntry = tk.Entry(self, textvariable=self.itemReq_ReqIDSVar)
-        self.itemReq_ReqIDEntry.grid(row=ri,column=1,sticky=tk.N+tk.E+tk.W)
+        self.calc_ResearchTimeSVar = tk.StringVar()
+        self.calc_ResearchTimeLabel = tk.Label(self,text="Research time per sci unit:")
+        self.calc_ResearchTimeLabel.grid(row=ri,column=0,columnspan=3)
+        self.calc_ResearchTimeEntry = tk.Entry(self,textvariable=self.calc_ResearchTimeSVar)
+        self.calc_ResearchTimeEntry.grid(row=ri,column=3,columnspan=1)
         ri+=1
-
-
-        # item production requirement row (amt)
-        self.itemReq_AmtSVar = tk.StringVar()
-        self.itemReq_AmtLabel = tk.Label(self,text="Amount:")
-        self.itemReq_AmtLabel.grid(row=ri,column=0,sticky=tk.N)
-        self.itemReq_AmtEntry = tk.Entry(self, textvariable=self.itemReq_AmtSVar)
-        self.itemReq_AmtEntry.grid(row=ri,column=1,sticky=tk.N+tk.E+tk.W)
-        ri+=1
-        
-
-        # delete and add requirement buttons row
-        self.itemReq_DeleteReqButton = tk.Button(self, text="Delete Req", command=self.delReq)
-        self.itemReq_DeleteReqButton.grid(row=ri,column=0,sticky=tk.N)
-        
-        self.itemReq_AddReqButton = tk.Button(self, text="Add Req", command=self.addReq)
-        self.itemReq_AddReqButton.grid(row=ri,column=1,sticky=tk.N)
-        ri+1
 
 
         # separator, top-anchored
@@ -99,38 +178,24 @@ class App(tk.Frame):
         # this tells the grid to resize this row, it will expand with the window
         # which expands with the root window... if the root window doesn't resize
         # nothing else will!
-        self.grid_rowconfigure(ri,weight=1)        
+        self.grid_rowconfigure(ri-1,weight=1)        
 
 
-        # list of items in s3db
-        self.item_ItemListboxSVar = tk.StringVar()
-        self.item_ItemListboxYScroll = tk.Scrollbar(self,orient=tk.VERTICAL)
-        self.item_ItemListboxYScroll.grid(row=0,rowspan=ri,column=4,sticky=tk.E+tk.W+tk.N+tk.S)
-        self.item_ItemListbox = tk.Listbox(self,listvariable=self.item_ItemListboxSVar,yscrollcommand=self.item_ItemListboxYScroll.set)
-        self.item_ItemListbox.grid(row=0,rowspan=ri+1,column=3,sticky=tk.N+tk.S)
-        self.item_ItemListboxYScroll['command'] = self.item_ItemListbox.yview
-
-
-        # list of item reqs in s3db
-        self.itemReq_ReqListboxSVar = tk.StringVar()
-        self.itemReq_ReqListboxYScroll = tk.Scrollbar(self,orient=tk.VERTICAL)
-        self.itemReq_ReqListboxYScroll.grid(row=0,rowspan=ri,column=6,sticky=tk.N+tk.S)
-        self.itemReq_ReqListbox = tk.Listbox(self,listvariable=self.itemReq_ReqListboxSVar,yscrollcommand=self.itemReq_ReqListboxYScroll.set)
-        self.itemReq_ReqListbox.grid(row=0,rowspan=ri+1,column=5,sticky=tk.N+tk.S)
-        self.itemReq_ReqListboxYScroll['command'] = self.itemReq_ReqListbox.yview
+        self.createItemListboxColumn(0,ri)
+        self.createItemReqListboxColumn(0,ri)
         ri+=1
-
+        
         
         self.quitButton = tk.Button(self, text='Quit', command=self.quit)
-        self.quitButton.grid(row=ri,column=0,sticky=tk.N)
+        self.quitButton.grid(row=ri,column=6,sticky=tk.N+tk.E)
 
         self.updateList()
 
 
     def addItem(self):
         try:
-            n=self.itemNamevar.get()
-            t=self.itemTimevar.get()
+            n=self.item_NameSVar.get()
+            t=self.item_TimeSVar.get()
             t=float(t)
             c=self.db.cursor()
 
@@ -145,7 +210,7 @@ class App(tk.Frame):
             self.updateList()
                  
         except Exception as e:
-            print('Exception occured while adding item:\n' + str(e) )
+            print( 'Exception occured while adding item:\n' + str(e) )
 
 
     def delItem(self):
@@ -175,18 +240,13 @@ class App(tk.Frame):
             c=self.db.cursor()
 
 
-            c.execute("SELECT amt FROM itemReq WHERE itemID=? AND reqID=? AND amt=?",(iid,rid,amt))
-            if len(c.fetchall())>0:
-                print("addReq(): Requirement relationship already in database.")
-                return
-            
-            c.execute("INSERT INTO itemReq(itemID,reqID,amt) VALUES(?)",(iid,rid,amt))
+            c.execute( "INSERT INTO itemReqs(itemID,reqID,amt) VALUES(?,?,?);", (iid,rid,amt)  )
             self.db.commit()
             self.updateList()
 
             
         except Exception as e:
-            print("addReq(): Exception occured while adding requirement:\n" + str(e))
+            print("addReq(): Exception occured while adding requirement:\n" + str(e.args))
             
 
     def delReq(self):
@@ -197,7 +257,7 @@ class App(tk.Frame):
             c=self.db.cursor()
 
 
-            c.execute("DELETE FROM itemReq WHERE itemID=? AND reqID=? AND amt=?",(iid,rid,amt))
+            c.execute("DELETE FROM itemReqs WHERE itemID=? AND reqID=? AND amt=?;", (iid,rid,amt) )
             self.db.commit()
             self.updateList()
 
@@ -219,16 +279,15 @@ class App(tk.Frame):
 
 
             s=""
-            c.execute("SELECT r.name,r.id,i.name,i.id,ir.amt FROM item AS r \
-                      JOIN itemReq AS ir ON r.id = ir.reqID \
+            c.execute("SELECT i.name,i.id,r.name,r.id,ir.amt FROM item AS r \
+                      JOIN itemReqs AS ir ON r.id = ir.reqID \
                       JOIN item AS i ON i.id = ir.itemID;")
             for i in c.fetchall():
                 for j in i:
-                    j.replace(" ","\ ")
-                    s+=str(j)+":"
+                    s+=str(j).replace(" ","\ ")+":"
                 s=s[:-1]+" "
 
-            self.itemReq.ReqListboxSVar.set(s)
+            self.itemReq_ReqListboxSVar.set(s)
 
             
         except Exception as e:
