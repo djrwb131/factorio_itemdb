@@ -130,21 +130,35 @@ class App(tk.Frame):
         self.calc_ResearchTimeLabel = tk.Label(self,text="Research time per sci unit:")
         self.calc_ResearchTimeLabel.grid(row=ri,column=0,columnspan=3,sticky=tk.W+tk.N)
         self.calc_ResearchTimeEntry = tk.Entry(self,textvariable=self.calc_ResearchTimeSVar)
-        self.calc_ResearchTimeEntry.grid(row=ri,column=3,columnspan=1,sticky=tk.W+tk.E+tk.N)     
+        self.calc_ResearchTimeEntry.grid(row=ri,column=3,columnspan=1,sticky=tk.W+tk.E+tk.N)
+
+
+    def createSearchRow(self,ri):
+        self.itemSearchSVar = tk.StringVar()
+        self.itemSearchLabel = tk.Label(self,text="Searchbar:")
+        self.itemSearchLabel.grid(row=ri,column=3,sticky=tk.E)
+        self.itemSearchEntry = tk.Entry(self,textvariable=self.itemSearchSVar)
+        self.itemSearchEntry.grid(row=ri,column=4,sticky=tk.E+tk.W+tk.N+tk.S)
+        self.itemSearchEntry.bind('<Any-KeyRelease>',self.updateItemList)
+
+        self.itemReqSearchSVar = tk.StringVar()
+        self.itemReqSearchEntry = tk.Entry(self,textvariable=self.itemReqSearchSVar)
+        self.itemReqSearchEntry.grid(row=ri,column=6,sticky=tk.E+tk.W+tk.N+tk.S)
+        self.itemReqSearchEntry.bind('<Any-KeyRelease>',self.updateItemReqList)
+        
 
 
     def createWidgets(self):
         self.master.title('Factorio Item Database')
-        
         
         # resizable - this is important, tk is weird about window resizing
         # the app frame is not the root window, use winfo_toplevel() to get
         # the root window
         top=self.winfo_toplevel()
         
-        #top['width']=800
-        #top['height']=600
-        #top.grid_propagate(0)
+        top['width']=800
+        top['height']=600
+        top.grid_propagate(0)
         
         # rowconfigure tells the window that whatever is in row 0 (arg0)
         # should resize at a rate of 1 (arg1,'weight')
@@ -157,7 +171,8 @@ class App(tk.Frame):
 
         # row index
         ri=0
-        
+
+        # each row is tk.N stickied, with tk.W labels and tk.W+tk.E stretched widgets       
         self.createItemNameRow(ri)
         ri+=1
         self.createItemTimeRow(ri)
@@ -179,36 +194,20 @@ class App(tk.Frame):
         self.createCalcLabRow(ri)
         ri+=1
         self.createCalcTimeRow(ri)
-        ri+=1
         
-        # separator, top-anchored
-
-        # this tells the grid to resize the last row (calctimerow), it will expand with the window
-        # which expands with the root window... if the root window doesn't resize
-        # nothing else will!
-        self.grid_rowconfigure(ri-1,weight=1)
-
-
+        # expand the last row before the bottom to pad the area between the
+        # row grid and the searchbar/quit button. This allows the listboxes
+        # to resize without creating distance between each of the above rows.
+        self.grid_rowconfigure(ri,weight=1)
+        
         self.createItemListboxColumn(0,ri)
         self.createItemReqListboxColumn(0,ri)
         ri+=1
 
-        self.itemSearchSVar = tk.StringVar()
-        self.itemSearchLabel = tk.Label(self,text="Searchbar:")
-        self.itemSearchLabel.grid(row=ri,column=3,sticky=tk.E)
-        self.itemSearchEntry = tk.Entry(self,textvariable=self.itemSearchSVar)
-        self.itemSearchEntry.grid(row=ri,column=4,sticky=tk.E+tk.W+tk.N+tk.S)
-        self.itemSearchEntry.bind('<Any-KeyRelease>',self.updateItemList)
-
-        self.itemReqSearchSVar = tk.StringVar()
-        self.itemReqSearchEntry = tk.Entry(self,textvariable=self.itemReqSearchSVar)
-        self.itemReqSearchEntry.grid(row=ri,column=6,sticky=tk.E+tk.W+tk.N+tk.S)
-        self.itemReqSearchEntry.bind('<Any-KeyRelease>',self.updateItemReqList)
-        
+        self.createSearchRow(ri)        
         
         self.quitButton = tk.Button(self, text='Quit', command=self.quit)
         self.quitButton.grid(row=ri,column=6,sticky=tk.N+tk.E)
-
 
         self.updateItemList()
         self.updateItemReqList()
