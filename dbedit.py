@@ -194,15 +194,15 @@ class App(tk.Frame):
         self.createCalcLabRow(ri)
         ri+=1
         self.createCalcTimeRow(ri)
-        
+        self.createItemListboxColumn(0,ri)
+        self.createItemReqListboxColumn(0,ri)        
         # expand the last row before the bottom to pad the area between the
         # row grid and the searchbar/quit button. This allows the listboxes
         # to resize without creating distance between each of the above rows.
         self.grid_rowconfigure(ri,weight=1)
-        
-        self.createItemListboxColumn(0,ri)
-        self.createItemReqListboxColumn(0,ri)
-        ri+=1
+        ri+1
+
+        ri+1
 
         self.createSearchRow(ri)        
         

@@ -1,0 +1,54 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE item(
+	id INTEGER PRIMARY KEY NOT NULL,
+	name TEXT NOT NULL,
+	time DECIMAL(5,2) NOT NULL DEFAULT 0
+);
+INSERT INTO item VALUES(1,'Iron',0);
+INSERT INTO item VALUES(2,'Copper',0);
+INSERT INTO item VALUES(3,'Coal',0);
+INSERT INTO item VALUES(4,'Iron gear',0.5);
+INSERT INTO item VALUES(5,'Green Circuit',0.5);
+INSERT INTO item VALUES(6,'Yellow Belt',0.5);
+INSERT INTO item VALUES(7,'Yellow Inserter',0.5);
+INSERT INTO item VALUES(8,'Copper Cable',0.25);
+INSERT INTO item VALUES(9,'Grenade',8);
+INSERT INTO item VALUES(10,'Turret',8);
+INSERT INTO item VALUES(11,'Red Circuit',6);
+INSERT INTO item VALUES(12,'Yellow Rounds',1);
+INSERT INTO item VALUES(13,'Steel',0);
+INSERT INTO item VALUES(14,'Red Rounds',3);
+INSERT INTO item VALUES(15,'Plastic',2);
+INSERT INTO item VALUES(16,'Petrol',0);
+INSERT INTO item VALUES(17,'Pipe',0.5);
+INSERT INTO item VALUES(18,'Engine',10);
+INSERT INTO item VALUES(19,'Electric Mining Drill',2);
+INSERT INTO item VALUES(20,'Electric Engine',10);
+INSERT INTO item VALUES(21,'Lubricant',1);
+INSERT INTO item VALUES(22,'Electric Furnace',5);
+INSERT INTO item VALUES(23,'Stone Brick',0);
+INSERT INTO item VALUES(24,'Blue Circuit',10);
+INSERT INTO item VALUES(25,'Battery',5);
+INSERT INTO item VALUES(26,'Sulfuric Acid',1);
+INSERT INTO item VALUES(27,'Sulfur',1);
+INSERT INTO item VALUES(28,'Water',0);
+CREATE TABLE facility(
+	id INTEGER PRIMARY KEY NOT NULL,
+	name TEXT NOT NULL
+);
+INSERT INTO facility VALUES(1,'Assembling Machine 2+');
+INSERT INTO facility VALUES(2,'Assembling Machine 3+');
+INSERT INTO facility VALUES(3,'Oil Refinery');
+INSERT INTO facility VALUES(4,'Chemical Plant');
+CREATE TABLE IF NOT EXISTS "old_itemFacs"(
+	itemID INTEGER NOT NULL REFERENCES item(id),
+	facID INTEGER NOT NULL REFERENCES facility(id)
+);
+CREATE TABLE itemReqs(
+itemID INTEGER NOT NULL REFERENCES item(id),
+reqID INTEGER NOT NULL REFERENCES item(id) CHECK(reqID != itemID),
+amt INTEGER NOT NULL DEFAULT 1 CHECK(amt > 0),
+PRIMARY KEY(itemID,reqID)
+);
+COMMIT;

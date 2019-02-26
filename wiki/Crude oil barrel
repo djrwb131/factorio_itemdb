@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Barrel - Factorio Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Barrel","wgTitle":"Barrel","wgCurRevisionId":159148,"wgRevisionId":159148,"wgArticleId":33604,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["English page","Intermediate products"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Barrel","wgRelevantArticleId":33604,"wgRequestId":"d1fabf09166b29e854e89e0f","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Crude_oil_barrel","wgInternalRedirectTargetUrl":"/Barrel"});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vectordark.styles":"ready"});mw.loader.implement("user.tokens@1y6dvd3",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.Edittools","skins.vectordark.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vectordark.styles&amp;only=styles&amp;skin=vectordark"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vectordark"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vectordark"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Official Factorio Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.factorio.com/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Official Factorio Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://wiki.factorio.com/Barrel"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115167276-2"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag("js", new Date());
+ gtag("config", "UA-115167276-2");
+</script>
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=Vectordark&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Barrel rootpage-Barrel skin-vectordark action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-languages-container" class="mw-indicator"><div class="languages-container">
+<p><span class="languages-message">
+In other languages:
+</span>
+<span class="languages-flags">
+<span></span>
+<span></span>
+<a href="/Barrel/de" title="Deutsch"><img alt="Deutsch" src="/images/thumb/Flag_de.png/25px-Flag_de.png" width="25" height="16" class="flag" srcset="/images/Flag_de.png 1.5x" /></a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<a href="/Barrel/ru" title="Русский"><img alt="Русский" src="/images/thumb/Flag_ru.png/25px-Flag_ru.png" width="25" height="16" class="flag" srcset="/images/Flag_ru.png 1.5x" /></a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<a href="/Barrel/zh" title="中文"><img alt="中文" src="/images/thumb/Flag_zh.png/25px-Flag_zh.png" width="25" height="17" class="flag" srcset="/images/thumb/Flag_zh.png/38px-Flag_zh.png 1.5x, /images/thumb/Flag_zh.png/50px-Flag_zh.png 2x" /></a>
+</span>
+</p>
+</div>
+</div>
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Barrel</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Official Factorio Wiki</div>
+								<div id="contentSub"><span class="mw-redirectedfrom">(Redirected from <a href="/index.php?title=Crude_oil_barrel&amp;redirect=no" class="mw-redirect" title="Crude oil barrel">Crude oil barrel</a>)</span></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><b>Barrels</b> can be used to store and transport 50 units of various fluids. Since they are solid objects, they can be used as an alternative to pipes, once <a href="/Fluid_handling_(research)" title="Fluid handling (research)">fluid handling</a> is researched.  The barrels themselves are reusable once the fluids are drained.
+</p><p>Barrels stack in groups of 10. A single <a href="/Cargo_wagon" title="Cargo wagon">cargo wagon</a> can hold 400 barrels, which gives a capacity of 20,000 units per cargo wagon – 5,000 less units than the capacity of a <a href="/Fluid_wagon" title="Fluid wagon">fluid wagon</a>. 
+</p><p><br />
+</p>
+<div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Empty_barrels"><span class="tocnumber">1</span> <span class="toctext">Empty barrels</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Fill_barrels"><span class="tocnumber">2</span> <span class="toctext">Fill barrels</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Example_of_use"><span class="tocnumber">3</span> <span class="toctext">Example of use</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#History"><span class="tocnumber">4</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Empty_barrels">Empty barrels</span></h2>
+<p><b>Empty barrels</b> can be crafted.  When barrels are emptied, the (required) <a href="/Assembling_machine" title="Assembling machine">assembling machine</a> will also return an empty barrel.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<td><b>Recipe:</b></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Steel_plate" title="Steel plate"><img alt="Steel plate.png" src="/images/Steel_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">1</div></div> → <div class="factorio-icon" style="background-color:#929292;"><a href="/Empty_barrel" title="Empty barrel"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /></a><div class="factorio-icon-text">1</div></div>
+</td></tr>
+<tr>
+<td><b>Req. technology:</b></td>
+<td><div class="factorio-icon" style="background-color:#228B22;"><img alt="Fluid handling (research).png" src="/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png" width="32" height="32" srcset="/images/thumb/Fluid_handling_%28research%29.png/48px-Fluid_handling_%28research%29.png 1.5x, /images/thumb/Fluid_handling_%28research%29.png/64px-Fluid_handling_%28research%29.png 2x" /><div class="factorio-icon-text"></div></div> <a href="/Fluid_handling_(research)" title="Fluid handling (research)">Fluid handling</a>
+</td></tr>
+</tbody></table>
+<table class="wikitable">
+<tbody><tr>
+<th>Process</th>
+<th>Input</th>
+<th>Machine</th>
+<th>Output
+</th></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty crude oil barrel.png" src="/images/Empty_crude_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Empty crude oil barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Crude oil barrel.png" src="/images/Crude_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Crude_oil" title="Crude oil"><img alt="Crude oil.png" src="/images/Crude_oil.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty heavy oil barrel.png" src="/images/Empty_heavy_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Empty heavy oil barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Heavy oil barrel.png" src="/images/Heavy_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Heavy_oil" title="Heavy oil"><img alt="Heavy oil.png" src="/images/Heavy_oil.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty light oil barrel.png" src="/images/Empty_light_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Empty light oil barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Light oil barrel.png" src="/images/Light_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Light_oil" title="Light oil"><img alt="Light oil.png" src="/images/Light_oil.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty lubricant barrel.png" src="/images/Empty_lubricant_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Empty lubricant barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Lubricant barrel.png" src="/images/Lubricant_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Lubricant" title="Lubricant"><img alt="Lubricant.png" src="/images/Lubricant.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty petroleum gas barrel.png" src="/images/Empty_petroleum_gas_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Empty petroleum gas barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Petroleum gas barrel.png" src="/images/Petroleum_gas_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Petroleum_gas" title="Petroleum gas"><img alt="Petroleum gas.png" src="/images/Petroleum_gas.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty sulfuric acid barrel.png" src="/images/Empty_sulfuric_acid_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Empty sulfuric acid barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Sulfuric acid barrel.png" src="/images/Sulfuric_acid_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Sulfuric_acid" title="Sulfuric acid"><img alt="Sulfuric acid.png" src="/images/Sulfuric_acid.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty water barrel.png" src="/images/Empty_water_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Empty water barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Water barrel.png" src="/images/Water_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> + <div class="factorio-icon" style="background-color:#929292;"><a href="/Water" title="Water"><img alt="Water.png" src="/images/Water.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div>
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Fill_barrels">Fill barrels</span></h2>
+<p><b>Filled barrels</b> cannot be crafted.  They are filled using the respective <a href="/Fluid_system" title="Fluid system">fluids</a>'s <b>Fill barrel</b> process which consumes empty barrels.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Process</th>
+<th>Input</th>
+<th>Machine</th>
+<th>Output
+</th></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Fill crude oil barrel.png" src="/images/Fill_crude_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Fill crude oil barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Crude_oil" title="Crude oil"><img alt="Crude oil.png" src="/images/Crude_oil.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Crude oil barrel.png" src="/images/Crude_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Fill heavy oil barrel.png" src="/images/Fill_heavy_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Fill heavy oil barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Heavy_oil" title="Heavy oil"><img alt="Heavy oil.png" src="/images/Heavy_oil.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Heavy oil barrel.png" src="/images/Heavy_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Fill light oil barrel.png" src="/images/Fill_light_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Fill light oil barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Light_oil" title="Light oil"><img alt="Light oil.png" src="/images/Light_oil.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Light oil barrel.png" src="/images/Light_oil_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Fill lubricant barrel.png" src="/images/Fill_lubricant_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Fill lubricant barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Lubricant" title="Lubricant"><img alt="Lubricant.png" src="/images/Lubricant.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Lubricant barrel.png" src="/images/Lubricant_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Fill petroleum gas barrel.png" src="/images/Fill_petroleum_gas_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Fill petroleum gas barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Petroleum_gas" title="Petroleum gas"><img alt="Petroleum gas.png" src="/images/Petroleum_gas.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Petroleum gas barrel.png" src="/images/Petroleum_gas_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Fill sulfuric acid barrel.png" src="/images/Fill_sulfuric_acid_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Fill sulfuric acid barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Sulfuric_acid" title="Sulfuric acid"><img alt="Sulfuric acid.png" src="/images/Sulfuric_acid.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Sulfuric acid barrel.png" src="/images/Sulfuric_acid_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div>
+</td></tr>
+<tr>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Fill water barrel.png" src="/images/Fill_water_barrel.png" width="32" height="32" /><div class="factorio-icon-text"></div></div> Fill water barrel</td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Empty barrel.png" src="/images/Empty_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Water" title="Water"><img alt="Water.png" src="/images/Water.png" width="32" height="32" /></a><div class="factorio-icon-text">50</div></div> <div class="factorio-icon" style="background-color:#929292;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">0.2</div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> or <div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div></td>
+<td><div class="factorio-icon" style="background-color:#929292;"><img alt="Water barrel.png" src="/images/Water_barrel.png" width="32" height="32" /><div class="factorio-icon-text">1</div></div>
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Example_of_use">Example of use</span></h2>
+<p>Barrels are useful in situations where pipes are not available or a bad option, such as oil production far away from your main factory.  Barrels can be transported with a <a href="/Belt_transport_system" title="Belt transport system">belt transport system</a> or <a href="/Railway" title="Railway">railway</a>, by <a href="/Logistic_robot" title="Logistic robot">logistic robots</a>, via <a href="/Car" title="Car">car</a> or <a href="/Tank" title="Tank">tank</a>, or in the <a href="/Player" title="Player">player</a>'s inventory. A simple example with <a href="/Transport_belts" title="Transport belts">transport belts</a>:
+</p><p><a href="/File:Crude-oil-barrel-handling-example.png" class="image"><img alt="Crude-oil-barrel-handling-example.png" src="/images/Crude-oil-barrel-handling-example.png" width="838" height="405" /></a>
+</p>
+<h2><span class="mw-headline" id="History">History</span></h2>
+<ul><li class="history-description"><b><a href="/Version_history/0.16.0#0.16.8" title="Version history/0.16.0">0.16.8</a></b>: 
+<ul><li>Lowered barrel fluid capacity from 250 to 50. (So cargo wagon with barrels holds 20k and logistic robots are not too strong alternative to carrying fluids.)</li>
+<li>Decreased barrelling crafting time from 1 second to 0.2 seconds.</li></ul></li></ul>
+
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul><li><a href="/Fluid_handling_(research)" title="Fluid handling (research)">Fluid handling</a></li>
+<li><a href="/Oil_processing" title="Oil processing">Oil processing</a></li>
+<li><a href="/Crude_oil" title="Crude oil">Crude oil</a></li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20190224204549
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 1.096 seconds
+Real time usage: 1.404 seconds
+Preprocessor visited node count: 41713/1000000
+Preprocessor generated node count: 7175/1000000
+Post‐expand include size: 37775/2097152 bytes
+Template argument size: 13243/2097152 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 57/10000
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1192.975      1 -total
+ 86.11% 1027.226    102 Template:Icon
+ 71.15%  848.746    204 Template:ConvertName
+ 11.47%  136.783      1 Template:Languages
+ 10.30%  122.862     82 Template:If_language_suffix
+  5.95%   70.993     42 Template:Get_language_code
+  4.95%   59.020     85 Template:Language_suffix
+  4.79%   57.151     21 Template:Language_exist
+  4.67%   55.678      1 Template:Get_language_name
+  0.90%   10.765      1 Template:Icontech
+-->
+</div>
+<!-- Saved in parser cache with key mediawiki-wiki:pcache:idhash:33604-0!canonical and timestamp 20190224204547 and revision id 159148
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.factorio.com/index.php?title=Barrel&amp;oldid=159148">https://wiki.factorio.com/index.php?title=Barrel&amp;oldid=159148</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:English_page" title="Category:English page">English page</a></li><li><a href="/Category:Intermediate_products" title="Category:Intermediate products">Intermediate products</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Barrel" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li><li id="pt-createaccount"><a href="/Special:RequestAccount" title="You are encouraged to create an account and log in; however, it is not mandatory">Request account</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/Barrel"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Barrel&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/Barrel" >View</a></span></li>
+															<li id="ca-viewsource"><span><a href="/index.php?title=Barrel&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Barrel&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">History</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search the Official Factorio Wiki" title="Search Official Factorio Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-Random-page"><a href="/Special:RandomRootpage">Random page</a></li><li id="n-Wiki-rules"><a href="/Factorio:Wiki_rules">Wiki rules</a></li><li id="n-Wiki-style-guide"><a href="/Factorio:Style_guide">Wiki style guide</a></li><li id="n-Editor-noticeboard"><a href="/Factorio:Editor_noticeboard">Editor noticeboard</a></li><li id="n-Admin-noticeboard"><a href="/Factorio:Admin_noticeboard">Admin noticeboard</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Portals' aria-labelledby='p-Portals-label'>
+			<h3 id='p-Portals-label'>Portals</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Official-Website"><a href="http://www.factorio.com/" rel="nofollow">Official Website</a></li><li id="n-Official-Forum"><a href="http://forums.factorio.com" rel="nofollow">Official Forum</a></li><li id="n-Official-Subreddit"><a href="https://reddit.com/r/factorio" rel="nofollow">Official Subreddit</a></li><li id="n-Official-Mod-Portal"><a href="http://mods.factorio.com" rel="nofollow">Official Mod Portal</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Editor_Help' aria-labelledby='p-Editor_Help-label'>
+			<h3 id='p-Editor_Help-label'>Editor Help</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Mediawiki-general-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">Mediawiki general help</a></li><li id="n-Formatting"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Formatting">Formatting</a></li><li id="n-Images"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Images">Images</a></li><li id="n-Tables"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Tables">Tables</a></li><li id="n-Redirects"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Redirects">Redirects</a></li><li id="n-Templates"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Templates">Templates</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Barrel" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Barrel" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Barrel&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Barrel&amp;oldid=159148" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Barrel&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-custom-tb' aria-labelledby='p-custom-tb-label'>
+			<h3 id='p-custom-tb-label'>custom-tb</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Purge-page-cache"><a href="https://wiki.factorio.com/index.php?title=Barrel&amp;action=purge" rel="nofollow">Purge page cache</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 11 May 2018, at 22:30.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/Factorio:Privacy_policy" title="Factorio:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/Factorio:About" title="Factorio:About">About Official Factorio Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/Factorio:General_disclaimer" title="Factorio:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="/resources/assets/licenses/cc-by-nc-sa.png" alt="CC BY-NC-SA 3.0" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.096","walltime":"1.404","ppvisitednodes":{"value":41713,"limit":1000000},"ppgeneratednodes":{"value":7175,"limit":1000000},"postexpandincludesize":{"value":37775,"limit":2097152},"templateargumentsize":{"value":13243,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":57,"limit":10000},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00% 1192.975      1 -total"," 86.11% 1027.226    102 Template:Icon"," 71.15%  848.746    204 Template:ConvertName"," 11.47%  136.783      1 Template:Languages"," 10.30%  122.862     82 Template:If_language_suffix","  5.95%   70.993     42 Template:Get_language_code","  4.95%   59.020     85 Template:Language_suffix","  4.79%   57.151     21 Template:Language_exist","  4.67%   55.678      1 Template:Get_language_name","  0.90%   10.765      1 Template:Icontech"]},"cachereport":{"timestamp":"20190224204549","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":92});});</script>
+	</body>
+</html>

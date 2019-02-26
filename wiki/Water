@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Water - Factorio Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Water","wgTitle":"Water","wgCurRevisionId":166137,"wgRevisionId":166137,"wgArticleId":32721,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["English page","Intermediate products","Fluids"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Water","wgRelevantArticleId":32721,"wgRequestId":"ed372ee15485566823697881","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vectordark.styles":"ready"});mw.loader.implement("user.tokens@1y6dvd3",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Edittools","skins.vectordark.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vectordark.styles&amp;only=styles&amp;skin=vectordark"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vectordark"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vectordark"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<meta name="twitter:title" content="Water - Factorio Wiki"/>
+<meta name="description" content="&lt;b&gt;Water&lt;/b&gt; is a liquid which can be infinitely extracted from water tiles using an offshore pump. After being pumped out and distributed via pipes, water can be used to generate electricity by converting it to steam via boilers or heat exchangers. The specific heat of water is &lt;code&gt;200J / 1°C x unit&lt;/code&gt;. It takes 200 joules to heat one unit of water by one degree Celsius."/>
+<meta name="twitter:description" content="&lt;b&gt;Water&lt;/b&gt; is a liquid which can be infinitely extracted from water tiles using an offshore pump. After being pumped out and distributed via pipes, water can be used to generate electricity by converting it to steam via boilers or heat exchangers. The specific heat of water is &lt;code&gt;200J / 1°C x unit&lt;/code&gt;. It takes 200 joules to heat one unit of water by one degree Celsius."/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Official Factorio Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.factorio.com/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Official Factorio Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115167276-2"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag("js", new Date());
+ gtag("config", "UA-115167276-2");
+</script>
+<meta property="og:title" content="Water - Factorio Wiki" />
+
+<meta property="og:description" content="&lt;b&gt;Water&lt;/b&gt; is a liquid which can be infinitely extracted from water tiles using an offshore pump. After being pumped out and distributed via pipes, water can be used to generate electricity by converting it to steam via boilers or heat exchangers. The specific heat of water is &lt;code&gt;200J / 1°C x unit&lt;/code&gt;. It takes 200 joules to heat one unit of water by one degree Celsius."/>
+
+<meta property="og:image" content="https://wiki.factorio.com/images/Water_body_view.png"/>
+
+<meta property="og:type" content="article"/>
+
+<meta property="og:site_name" content="Official Factorio Wiki"/>
+
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=Vectordark&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Water rootpage-Water skin-vectordark action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-languages-container" class="mw-indicator"><div class="languages-container">
+<p><span class="languages-message">
+In other languages:
+</span>
+<span class="languages-flags">
+<span></span>
+<span></span>
+<a href="/Water/de" title="Deutsch"><img alt="Deutsch" src="/images/thumb/Flag_de.png/25px-Flag_de.png" width="25" height="16" class="flag" srcset="/images/Flag_de.png 1.5x" /></a>
+<span></span>
+<a href="/Water/es" title="Español"><img alt="Español" src="/images/thumb/Flag_es.png/25px-Flag_es.png" width="25" height="16" class="flag" srcset="/images/Flag_es.png 1.5x" /></a>
+<a href="/Water/fr" title="Français"><img alt="Français" src="/images/thumb/Flag_fr.png/25px-Flag_fr.png" width="25" height="16" class="flag" srcset="/images/Flag_fr.png 1.5x" /></a>
+<span></span>
+<span></span>
+<a href="/Water/ja" title="日本語"><img alt="日本語" src="/images/thumb/Flag_ja.png/25px-Flag_ja.png" width="25" height="17" class="flag" srcset="/images/thumb/Flag_ja.png/38px-Flag_ja.png 1.5x, /images/thumb/Flag_ja.png/50px-Flag_ja.png 2x" /></a>
+<span></span>
+<span></span>
+<a href="/Water/nl" title="Nederlands"><img alt="Nederlands" src="/images/thumb/Flag_nl.png/25px-Flag_nl.png" width="25" height="16" class="flag" srcset="/images/Flag_nl.png 1.5x" /></a>
+<a href="/Water/pl" title="Polska"><img alt="Polska" src="/images/Flag_pl.png" width="25" height="17" class="flag" /></a>
+<a href="/Water/pt-br" title="Português do Brasil"><img alt="Português do Brasil" src="/images/thumb/Flag_pt-br.png/25px-Flag_pt-br.png" width="25" height="16" class="flag" srcset="/images/Flag_pt-br.png 1.5x" /></a>
+<span></span>
+<a href="/Water/ru" title="Русский"><img alt="Русский" src="/images/thumb/Flag_ru.png/25px-Flag_ru.png" width="25" height="16" class="flag" srcset="/images/Flag_ru.png 1.5x" /></a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<a href="/Water/zh" title="中文"><img alt="中文" src="/images/thumb/Flag_zh.png/25px-Flag_zh.png" width="25" height="17" class="flag" srcset="/images/thumb/Flag_zh.png/38px-Flag_zh.png 1.5x, /images/thumb/Flag_zh.png/50px-Flag_zh.png 2x" /></a>
+</span>
+</p>
+</div>
+</div>
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Water</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Official Factorio Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="infobox">
+<div class="infobox-header intermediates">
+<table style="padding: 5px 0;">
+<tbody><tr>
+<td valign="top" style="width:32px;"><div class="factorio-icon" style="background-color:#929292;"><a href="/Water" title="Water"><img alt="Water.png" src="/images/Water.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div>
+</td>
+<td class="infobox-header-text"><span>Water</span>
+</td>
+<td class="plainlinks infobox-edit-link" valign="top" style="display: none;"><a rel="nofollow" class="external text" href="https://wiki.factorio.com/index.php?title=Infobox:Water&amp;action=edit">Edit</a>
+</td></tr></tbody></table>
+</div>
+<div class="infobox-image">
+<p><a href="/File:Water_body_view.png" class="image"><img alt="Water body view.png" src="/images/Water_body_view.png" width="300" height="300" /></a>
+</p>
+</div>
+<table>
+
+<tbody><tr class="border-top">
+<td>
+<p>Map color
+</p>
+</td>
+<td>
+<div style="background-color:#305258; height:16px; width:16px;display: inline-block; margin-right: 2px; margin-bottom: -3px;"></div>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="border-top">
+<td>
+<p>Prototype type
+</p>
+</td>
+<td>
+<p>fluid  
+</p>
+</td>
+</tr>
+<tr class="border-top">
+<td>
+<p>Internal name
+</p>
+</td>
+<td>
+<p>water  
+</p>
+</td>
+</tr>
+
+<tr class="border-top">
+<td colspan="2">
+<p>Required technologies
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<p><i>None required</i>
+</p>
+</td>
+</tr>
+
+
+
+<tr class="border-top">
+<td colspan="2">
+<p>Produced by
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Offshore_pump" title="Offshore pump"><img alt="Offshore pump.png" src="/images/Offshore_pump.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Empty_water_barrel" title="Empty water barrel"><img alt="Empty water barrel.png" src="/images/Empty_water_barrel.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> 
+</td>
+</tr>
+<tr class="border-top">
+<td colspan="2">
+<p>Consumed by
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Concrete" title="Concrete"><img alt="Concrete.png" src="/images/Concrete.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Heavy_oil_cracking" title="Heavy oil cracking"><img alt="Heavy oil cracking.png" src="/images/Heavy_oil_cracking.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Light_oil_cracking" title="Light oil cracking"><img alt="Light oil cracking.png" src="/images/Light_oil_cracking.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Sulfuric_acid" title="Sulfuric acid"><img alt="Sulfuric acid.png" src="/images/Sulfuric_acid.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Sulfur" title="Sulfur"><img alt="Sulfur.png" src="/images/Sulfur.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Explosives" title="Explosives"><img alt="Explosives.png" src="/images/Explosives.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Fill_water_barrel" title="Fill water barrel"><img alt="Fill water barrel.png" src="/images/Fill_water_barrel.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Advanced_oil_processing" title="Advanced oil processing"><img alt="Advanced oil processing.png" src="/images/Advanced_oil_processing.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> 
+</td>
+</tr>
+
+
+
+</tbody></table>
+</div><p><b>Water</b> is a <a href="/Fluid_system" title="Fluid system">liquid</a> which can be infinitely extracted from water tiles using an <a href="/Offshore_pump" title="Offshore pump">offshore pump</a>. After being pumped out and distributed via <a href="/Pipe" title="Pipe">pipes</a>, water can be used to generate <a href="/Electric_system" title="Electric system">electricity</a> by converting it to <a href="/Steam" title="Steam">steam</a> via <a href="/Boiler" title="Boiler">boilers</a> or <a href="/Heat_exchanger" title="Heat exchanger">heat exchangers</a>. The specific heat of water is <code>200J / 1°C x unit</code>. It takes 200 joules to heat one unit of water by one degree Celsius.
+</p><p>Water tiles can be removed completely by placing <a href="/Landfill" title="Landfill">landfill</a> over them. <a href="/Raw_fish" title="Raw fish">Raw fish</a> can spawn in water tiles.
+</p>
+<h2><span class="mw-headline" id="History">History</span></h2>
+<ul><li class="history-description"><b><a href="/Version_history/0.13.0#0.13.0" title="Version history/0.13.0">0.13.0</a></b>: 
+<ul><li>Landfill can be used to replace water with grass.</li></ul></li></ul>
+
+<ul><li class="history-description"><b><a href="/Version_history/0.9.0#0.9.1" title="Version history/0.9.0">0.9.1</a></b>: 
+<ul><li>Water settings in <a href="/World_generator" title="World generator">map generation</a> have more effect.</li></ul></li></ul>
+
+<ul><li class="history-description"><b><a href="/Version_history/0.1.0#0.1.0" title="Version history/0.1.0">0.1.0</a></b>: 
+<ul><li>Introduced</li></ul></li></ul>
+
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul><li><a href="/Fluid_system" title="Fluid system">Fluid system</a></li>
+<li><a href="/Electric_system" title="Electric system">Electric system</a></li></ul>
+<div class="navbox">
+<table class="navbox-inner">
+
+<tbody><tr>
+<th class="navbox-header" style="background:#5C8DC4;color:white" colspan="2">
+<div>
+<p>Intermediate products
+</p>
+</div>
+</th>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Resources and fluids
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Raw_wood" title="Raw wood"><img alt="Raw wood.png" src="/images/thumb/Raw_wood.png/16px-Raw_wood.png" width="16" height="16" srcset="/images/thumb/Raw_wood.png/24px-Raw_wood.png 1.5x, /images/Raw_wood.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Raw_wood" title="Raw wood">Raw wood</a></li>
+<li><span class="navbox-icon"><a href="/Coal" title="Coal"><img alt="Coal.png" src="/images/thumb/Coal.png/16px-Coal.png" width="16" height="16" srcset="/images/thumb/Coal.png/24px-Coal.png 1.5x, /images/Coal.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Coal" title="Coal">Coal</a></li>
+<li><span class="navbox-icon"><a href="/Stone" title="Stone"><img alt="Stone.png" src="/images/thumb/Stone.png/16px-Stone.png" width="16" height="16" srcset="/images/thumb/Stone.png/24px-Stone.png 1.5x, /images/Stone.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Stone" title="Stone">Stone</a></li>
+<li><span class="navbox-icon"><a href="/Iron_ore" title="Iron ore"><img alt="Iron ore.png" src="/images/thumb/Iron_ore.png/16px-Iron_ore.png" width="16" height="16" srcset="/images/thumb/Iron_ore.png/24px-Iron_ore.png 1.5x, /images/Iron_ore.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Iron_ore" title="Iron ore">Iron ore</a></li>
+<li><span class="navbox-icon"><a href="/Copper_ore" title="Copper ore"><img alt="Copper ore.png" src="/images/thumb/Copper_ore.png/16px-Copper_ore.png" width="16" height="16" srcset="/images/thumb/Copper_ore.png/24px-Copper_ore.png 1.5x, /images/Copper_ore.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Copper_ore" title="Copper ore">Copper ore</a></li>
+<li><span class="navbox-icon"><a href="/Uranium_ore" title="Uranium ore"><img alt="Uranium ore.png" src="/images/thumb/Uranium_ore.png/16px-Uranium_ore.png" width="16" height="16" srcset="/images/thumb/Uranium_ore.png/24px-Uranium_ore.png 1.5x, /images/Uranium_ore.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Uranium_ore" title="Uranium ore">Uranium ore</a></li>
+<li><span class="navbox-icon"><a href="/Raw_fish" title="Raw fish"><img alt="Raw fish.png" src="/images/thumb/Raw_fish.png/16px-Raw_fish.png" width="16" height="16" srcset="/images/thumb/Raw_fish.png/24px-Raw_fish.png 1.5x, /images/Raw_fish.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Raw_fish" title="Raw fish">Raw fish</a></li>
+<li><span class="navbox-icon"><a href="/Crude_oil" title="Crude oil"><img alt="Crude oil.png" src="/images/thumb/Crude_oil.png/16px-Crude_oil.png" width="16" height="16" srcset="/images/thumb/Crude_oil.png/24px-Crude_oil.png 1.5x, /images/Crude_oil.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Crude_oil" title="Crude oil">Crude oil</a></li>
+<li><span class="navbox-icon"><a href="/Heavy_oil" title="Heavy oil"><img alt="Heavy oil.png" src="/images/thumb/Heavy_oil.png/16px-Heavy_oil.png" width="16" height="16" srcset="/images/thumb/Heavy_oil.png/24px-Heavy_oil.png 1.5x, /images/Heavy_oil.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Heavy_oil" title="Heavy oil">Heavy oil</a></li>
+<li><span class="navbox-icon"><a href="/Light_oil" title="Light oil"><img alt="Light oil.png" src="/images/thumb/Light_oil.png/16px-Light_oil.png" width="16" height="16" srcset="/images/thumb/Light_oil.png/24px-Light_oil.png 1.5x, /images/Light_oil.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Light_oil" title="Light oil">Light oil</a></li>
+<li><span class="navbox-icon"><a href="/Lubricant" title="Lubricant"><img alt="Lubricant.png" src="/images/thumb/Lubricant.png/16px-Lubricant.png" width="16" height="16" srcset="/images/thumb/Lubricant.png/24px-Lubricant.png 1.5x, /images/Lubricant.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Lubricant" title="Lubricant">Lubricant</a></li>
+<li><span class="navbox-icon"><a href="/Petroleum_gas" title="Petroleum gas"><img alt="Petroleum gas.png" src="/images/thumb/Petroleum_gas.png/16px-Petroleum_gas.png" width="16" height="16" srcset="/images/thumb/Petroleum_gas.png/24px-Petroleum_gas.png 1.5x, /images/Petroleum_gas.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Petroleum_gas" title="Petroleum gas">Petroleum gas</a></li>
+<li><span class="navbox-icon"><a href="/Sulfuric_acid" title="Sulfuric acid"><img alt="Sulfuric acid.png" src="/images/thumb/Sulfuric_acid.png/16px-Sulfuric_acid.png" width="16" height="16" srcset="/images/thumb/Sulfuric_acid.png/24px-Sulfuric_acid.png 1.5x, /images/Sulfuric_acid.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Sulfuric_acid" title="Sulfuric acid">Sulfuric acid</a></li>
+<li><span class="navbox-icon"><a href="/Water" title="Water"><img alt="Water.png" src="/images/thumb/Water.png/16px-Water.png" width="16" height="16" srcset="/images/thumb/Water.png/24px-Water.png 1.5x, /images/Water.png 2x" /></a><span class="navbox-icon-text"></span></span> <a class="mw-selflink selflink">Water</a></li>
+<li><span class="navbox-icon"><a href="/Steam" title="Steam"><img alt="Steam.png" src="/images/thumb/Steam.png/16px-Steam.png" width="16" height="16" srcset="/images/thumb/Steam.png/24px-Steam.png 1.5x, /images/Steam.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Steam" title="Steam">Steam</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Materials
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Wood" title="Wood"><img alt="Wood.png" src="/images/thumb/Wood.png/16px-Wood.png" width="16" height="16" srcset="/images/thumb/Wood.png/24px-Wood.png 1.5x, /images/Wood.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Wood" title="Wood">Wood</a></li>
+<li><span class="navbox-icon"><a href="/Iron_plate" title="Iron plate"><img alt="Iron plate.png" src="/images/thumb/Iron_plate.png/16px-Iron_plate.png" width="16" height="16" srcset="/images/thumb/Iron_plate.png/24px-Iron_plate.png 1.5x, /images/Iron_plate.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Iron_plate" title="Iron plate">Iron plate</a></li>
+<li><span class="navbox-icon"><a href="/Copper_plate" title="Copper plate"><img alt="Copper plate.png" src="/images/thumb/Copper_plate.png/16px-Copper_plate.png" width="16" height="16" srcset="/images/thumb/Copper_plate.png/24px-Copper_plate.png 1.5x, /images/Copper_plate.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Copper_plate" title="Copper plate">Copper plate</a></li>
+<li><span class="navbox-icon"><a href="/Solid_fuel" title="Solid fuel"><img alt="Solid fuel.png" src="/images/thumb/Solid_fuel.png/16px-Solid_fuel.png" width="16" height="16" srcset="/images/thumb/Solid_fuel.png/24px-Solid_fuel.png 1.5x, /images/Solid_fuel.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Solid_fuel" title="Solid fuel">Solid fuel</a></li>
+<li><span class="navbox-icon"><a href="/Steel_plate" title="Steel plate"><img alt="Steel plate.png" src="/images/thumb/Steel_plate.png/16px-Steel_plate.png" width="16" height="16" srcset="/images/thumb/Steel_plate.png/24px-Steel_plate.png 1.5x, /images/Steel_plate.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Steel_plate" title="Steel plate">Steel plate</a></li>
+<li><span class="navbox-icon"><a href="/Plastic_bar" title="Plastic bar"><img alt="Plastic bar.png" src="/images/thumb/Plastic_bar.png/16px-Plastic_bar.png" width="16" height="16" srcset="/images/thumb/Plastic_bar.png/24px-Plastic_bar.png 1.5x, /images/Plastic_bar.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Plastic_bar" title="Plastic bar">Plastic bar</a></li>
+<li><span class="navbox-icon"><a href="/Sulfur" title="Sulfur"><img alt="Sulfur.png" src="/images/thumb/Sulfur.png/16px-Sulfur.png" width="16" height="16" srcset="/images/thumb/Sulfur.png/24px-Sulfur.png 1.5x, /images/Sulfur.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Sulfur" title="Sulfur">Sulfur</a></li>
+<li><span class="navbox-icon"><a href="/Battery" title="Battery"><img alt="Battery.png" src="/images/thumb/Battery.png/16px-Battery.png" width="16" height="16" srcset="/images/thumb/Battery.png/24px-Battery.png 1.5x, /images/Battery.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Battery" title="Battery">Battery</a></li>
+<li><span class="navbox-icon"><a href="/Explosives" title="Explosives"><img alt="Explosives.png" src="/images/thumb/Explosives.png/16px-Explosives.png" width="16" height="16" srcset="/images/thumb/Explosives.png/24px-Explosives.png 1.5x, /images/Explosives.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Explosives" title="Explosives">Explosives</a></li>
+<li><span class="navbox-icon"><a href="/Uranium_processing" title="Uranium processing"><img alt="Uranium processing.png" src="/images/thumb/Uranium_processing.png/16px-Uranium_processing.png" width="16" height="16" srcset="/images/thumb/Uranium_processing.png/24px-Uranium_processing.png 1.5x, /images/Uranium_processing.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Uranium_processing" title="Uranium processing">Uranium processing</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Crafting components
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Copper_cable" title="Copper cable"><img alt="Copper cable.png" src="/images/thumb/Copper_cable.png/16px-Copper_cable.png" width="16" height="16" srcset="/images/thumb/Copper_cable.png/24px-Copper_cable.png 1.5x, /images/Copper_cable.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Copper_cable" title="Copper cable">Copper cable</a></li>
+<li><span class="navbox-icon"><a href="/Iron_stick" title="Iron stick"><img alt="Iron stick.png" src="/images/thumb/Iron_stick.png/16px-Iron_stick.png" width="16" height="16" srcset="/images/thumb/Iron_stick.png/24px-Iron_stick.png 1.5x, /images/Iron_stick.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Iron_stick" title="Iron stick">Iron stick</a></li>
+<li><span class="navbox-icon"><a href="/Iron_gear_wheel" title="Iron gear wheel"><img alt="Iron gear wheel.png" src="/images/thumb/Iron_gear_wheel.png/16px-Iron_gear_wheel.png" width="16" height="16" srcset="/images/thumb/Iron_gear_wheel.png/24px-Iron_gear_wheel.png 1.5x, /images/Iron_gear_wheel.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Iron_gear_wheel" title="Iron gear wheel">Iron gear wheel</a></li>
+<li><span class="navbox-icon"><a href="/Electronic_circuit" title="Electronic circuit"><img alt="Electronic circuit.png" src="/images/thumb/Electronic_circuit.png/16px-Electronic_circuit.png" width="16" height="16" srcset="/images/thumb/Electronic_circuit.png/24px-Electronic_circuit.png 1.5x, /images/Electronic_circuit.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Electronic_circuit" title="Electronic circuit">Electronic circuit</a></li>
+<li><span class="navbox-icon"><a href="/Advanced_circuit" title="Advanced circuit"><img alt="Advanced circuit.png" src="/images/thumb/Advanced_circuit.png/16px-Advanced_circuit.png" width="16" height="16" srcset="/images/thumb/Advanced_circuit.png/24px-Advanced_circuit.png 1.5x, /images/Advanced_circuit.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Advanced_circuit" title="Advanced circuit">Advanced circuit</a></li>
+<li><span class="navbox-icon"><a href="/Processing_unit" title="Processing unit"><img alt="Processing unit.png" src="/images/thumb/Processing_unit.png/16px-Processing_unit.png" width="16" height="16" srcset="/images/thumb/Processing_unit.png/24px-Processing_unit.png 1.5x, /images/Processing_unit.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Processing_unit" title="Processing unit">Processing unit</a></li>
+<li><span class="navbox-icon"><a href="/Engine_unit" title="Engine unit"><img alt="Engine unit.png" src="/images/thumb/Engine_unit.png/16px-Engine_unit.png" width="16" height="16" srcset="/images/thumb/Engine_unit.png/24px-Engine_unit.png 1.5x, /images/Engine_unit.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Engine_unit" title="Engine unit">Engine unit</a></li>
+<li><span class="navbox-icon"><a href="/Electric_engine_unit" title="Electric engine unit"><img alt="Electric engine unit.png" src="/images/thumb/Electric_engine_unit.png/16px-Electric_engine_unit.png" width="16" height="16" srcset="/images/thumb/Electric_engine_unit.png/24px-Electric_engine_unit.png 1.5x, /images/Electric_engine_unit.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Electric_engine_unit" title="Electric engine unit">Electric engine unit</a></li>
+<li><span class="navbox-icon"><a href="/Flying_robot_frame" title="Flying robot frame"><img alt="Flying robot frame.png" src="/images/thumb/Flying_robot_frame.png/16px-Flying_robot_frame.png" width="16" height="16" srcset="/images/thumb/Flying_robot_frame.png/24px-Flying_robot_frame.png 1.5x, /images/Flying_robot_frame.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Flying_robot_frame" title="Flying robot frame">Flying robot frame</a></li>
+<li><span class="navbox-icon"><a href="/Satellite" title="Satellite"><img alt="Satellite.png" src="/images/thumb/Satellite.png/16px-Satellite.png" width="16" height="16" srcset="/images/thumb/Satellite.png/24px-Satellite.png 1.5x, /images/Satellite.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Satellite" title="Satellite">Satellite</a></li>
+<li><span class="navbox-icon"><a href="/Rocket_part" title="Rocket part"><img alt="Rocket part.png" src="/images/thumb/Rocket_part.png/16px-Rocket_part.png" width="16" height="16" srcset="/images/thumb/Rocket_part.png/24px-Rocket_part.png 1.5x, /images/Rocket_part.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Rocket_part" title="Rocket part">Rocket part</a></li>
+<li><span class="navbox-icon"><a href="/Rocket_control_unit" title="Rocket control unit"><img alt="Rocket control unit.png" src="/images/thumb/Rocket_control_unit.png/16px-Rocket_control_unit.png" width="16" height="16" srcset="/images/thumb/Rocket_control_unit.png/24px-Rocket_control_unit.png 1.5x, /images/Rocket_control_unit.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Rocket_control_unit" title="Rocket control unit">Rocket control unit</a></li>
+<li><span class="navbox-icon"><a href="/Low_density_structure" title="Low density structure"><img alt="Low density structure.png" src="/images/thumb/Low_density_structure.png/16px-Low_density_structure.png" width="16" height="16" srcset="/images/thumb/Low_density_structure.png/24px-Low_density_structure.png 1.5x, /images/Low_density_structure.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Low_density_structure" title="Low density structure">Low density structure</a></li>
+<li><span class="navbox-icon"><a href="/Rocket_fuel" title="Rocket fuel"><img alt="Rocket fuel.png" src="/images/thumb/Rocket_fuel.png/16px-Rocket_fuel.png" width="16" height="16" srcset="/images/thumb/Rocket_fuel.png/24px-Rocket_fuel.png 1.5x, /images/Rocket_fuel.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Rocket_fuel" title="Rocket fuel">Rocket fuel</a></li>
+<li><span class="navbox-icon"><a href="/Nuclear_fuel" title="Nuclear fuel"><img alt="Nuclear fuel.png" src="/images/thumb/Nuclear_fuel.png/16px-Nuclear_fuel.png" width="16" height="16" srcset="/images/thumb/Nuclear_fuel.png/24px-Nuclear_fuel.png 1.5x, /images/Nuclear_fuel.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Nuclear_fuel" title="Nuclear fuel">Nuclear fuel</a></li>
+<li><span class="navbox-icon"><a href="/Uranium-235" title="Uranium-235"><img alt="Uranium-235.png" src="/images/thumb/Uranium-235.png/16px-Uranium-235.png" width="16" height="16" srcset="/images/thumb/Uranium-235.png/24px-Uranium-235.png 1.5x, /images/Uranium-235.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Uranium-235" title="Uranium-235">Uranium-235</a></li>
+<li><span class="navbox-icon"><a href="/Uranium-238" title="Uranium-238"><img alt="Uranium-238.png" src="/images/thumb/Uranium-238.png/16px-Uranium-238.png" width="16" height="16" srcset="/images/thumb/Uranium-238.png/24px-Uranium-238.png 1.5x, /images/Uranium-238.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Uranium-238" title="Uranium-238">Uranium-238</a></li>
+<li><span class="navbox-icon"><a href="/Uranium_fuel_cell" title="Uranium fuel cell"><img alt="Uranium fuel cell.png" src="/images/thumb/Uranium_fuel_cell.png/16px-Uranium_fuel_cell.png" width="16" height="16" srcset="/images/thumb/Uranium_fuel_cell.png/24px-Uranium_fuel_cell.png 1.5x, /images/Uranium_fuel_cell.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Uranium_fuel_cell" title="Uranium fuel cell">Uranium fuel cell</a></li>
+<li><span class="navbox-icon"><a href="/Used_up_uranium_fuel_cell" title="Used up uranium fuel cell"><img alt="Used up uranium fuel cell.png" src="/images/thumb/Used_up_uranium_fuel_cell.png/16px-Used_up_uranium_fuel_cell.png" width="16" height="16" srcset="/images/thumb/Used_up_uranium_fuel_cell.png/24px-Used_up_uranium_fuel_cell.png 1.5x, /images/Used_up_uranium_fuel_cell.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Used_up_uranium_fuel_cell" title="Used up uranium fuel cell">Used up uranium fuel cell</a></li>
+<li><span class="navbox-icon"><a href="/Nuclear_fuel_reprocessing" title="Nuclear fuel reprocessing"><img alt="Nuclear fuel reprocessing.png" src="/images/thumb/Nuclear_fuel_reprocessing.png/16px-Nuclear_fuel_reprocessing.png" width="16" height="16" srcset="/images/thumb/Nuclear_fuel_reprocessing.png/24px-Nuclear_fuel_reprocessing.png 1.5x, /images/Nuclear_fuel_reprocessing.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Nuclear_fuel_reprocessing" title="Nuclear fuel reprocessing">Nuclear fuel reprocessing</a></li>
+<li><span class="navbox-icon"><a href="/Kovarex_enrichment_process" title="Kovarex enrichment process"><img alt="Kovarex enrichment process.png" src="/images/thumb/Kovarex_enrichment_process.png/16px-Kovarex_enrichment_process.png" width="16" height="16" srcset="/images/thumb/Kovarex_enrichment_process.png/24px-Kovarex_enrichment_process.png 1.5x, /images/Kovarex_enrichment_process.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Kovarex_enrichment_process" title="Kovarex enrichment process">Kovarex enrichment process</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Science packs
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Science_pack_1" title="Science pack 1"><img alt="Science pack 1.png" src="/images/thumb/Science_pack_1.png/16px-Science_pack_1.png" width="16" height="16" srcset="/images/thumb/Science_pack_1.png/24px-Science_pack_1.png 1.5x, /images/Science_pack_1.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Science_pack_1" title="Science pack 1">Science pack 1</a></li>
+<li><span class="navbox-icon"><a href="/Science_pack_2" title="Science pack 2"><img alt="Science pack 2.png" src="/images/thumb/Science_pack_2.png/16px-Science_pack_2.png" width="16" height="16" srcset="/images/thumb/Science_pack_2.png/24px-Science_pack_2.png 1.5x, /images/Science_pack_2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Science_pack_2" title="Science pack 2">Science pack 2</a></li>
+<li><span class="navbox-icon"><a href="/Science_pack_3" title="Science pack 3"><img alt="Science pack 3.png" src="/images/thumb/Science_pack_3.png/16px-Science_pack_3.png" width="16" height="16" srcset="/images/thumb/Science_pack_3.png/24px-Science_pack_3.png 1.5x, /images/Science_pack_3.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Science_pack_3" title="Science pack 3">Science pack 3</a></li>
+<li><span class="navbox-icon"><a href="/Military_science_pack" title="Military science pack"><img alt="Military science pack.png" src="/images/thumb/Military_science_pack.png/16px-Military_science_pack.png" width="16" height="16" srcset="/images/thumb/Military_science_pack.png/24px-Military_science_pack.png 1.5x, /images/Military_science_pack.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Military_science_pack" title="Military science pack">Military science pack</a></li>
+<li><span class="navbox-icon"><a href="/Production_science_pack" title="Production science pack"><img alt="Production science pack.png" src="/images/thumb/Production_science_pack.png/16px-Production_science_pack.png" width="16" height="16" srcset="/images/thumb/Production_science_pack.png/24px-Production_science_pack.png 1.5x, /images/Production_science_pack.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Production_science_pack" title="Production science pack">Production science pack</a></li>
+<li><span class="navbox-icon"><a href="/High_tech_science_pack" title="High tech science pack"><img alt="High tech science pack.png" src="/images/thumb/High_tech_science_pack.png/16px-High_tech_science_pack.png" width="16" height="16" srcset="/images/thumb/High_tech_science_pack.png/24px-High_tech_science_pack.png 1.5x, /images/High_tech_science_pack.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/High_tech_science_pack" title="High tech science pack">High tech science pack</a></li>
+<li><span class="navbox-icon"><a href="/Space_science_pack" title="Space science pack"><img alt="Space science pack.png" src="/images/thumb/Space_science_pack.png/16px-Space_science_pack.png" width="16" height="16" srcset="/images/thumb/Space_science_pack.png/24px-Space_science_pack.png 1.5x, /images/Space_science_pack.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Space_science_pack" title="Space science pack">Space science pack</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p><a href="/Factorio:Navigation" title="Factorio:Navigation">Navigation</a>
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><a href="/Template:LogisticsNav" title="Template:LogisticsNav">Logistics</a></li>
+<li><a href="/Template:ProductionNav" title="Template:ProductionNav">Production</a></li>
+<li><a href="/Template:CombatNav" title="Template:CombatNav">Combat</a></li>
+<li><a href="/Template:TechNav" title="Template:TechNav">Technology</a></li></ul>
+</div>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+</tbody></table>
+</div>
+
+<!-- 
+NewPP limit report
+Cached time: 20190213110842
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 1.472 seconds
+Real time usage: 1.645 seconds
+Preprocessor visited node count: 39871/1000000
+Preprocessor generated node count: 11061/1000000
+Post‐expand include size: 82053/2097152 bytes
+Template argument size: 61409/2097152 bytes
+Highest expansion depth: 19/40
+Expensive parser function count: 89/10000
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 785/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1385.614      1 -total
+ 67.20%  931.175      1 Template:IntermediateNav
+ 66.53%  921.895      1 Template:Navbox
+ 64.92%  899.530     53 Template:NavboxIconLink
+ 55.75%  772.541    128 Template:ConvertName
+ 22.48%  311.439      1 Infobox:Water
+ 22.35%  309.737      1 Template:Infobox
+ 17.70%  245.219     11 Template:Infobox/vrow
+ 17.08%  236.683      2 Template:Item/parsing
+ 15.48%  214.545    202 Template:Item/parsing/entry
+-->
+</div>
+<!-- Saved in parser cache with key mediawiki-wiki:pcache:idhash:32721-0!canonical and timestamp 20190213110841 and revision id 166137
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.factorio.com/index.php?title=Water&amp;oldid=166137">https://wiki.factorio.com/index.php?title=Water&amp;oldid=166137</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:English_page" title="Category:English page">English page</a></li><li><a href="/Category:Intermediate_products" title="Category:Intermediate products">Intermediate products</a></li><li><a href="/Category:Fluids" title="Category:Fluids">Fluids</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Water" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li><li id="pt-createaccount"><a href="/Special:RequestAccount" title="You are encouraged to create an account and log in; however, it is not mandatory">Request account</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/Water"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Water&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/Water" >View</a></span></li>
+															<li id="ca-viewsource"><span><a href="/index.php?title=Water&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Water&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">History</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search the Official Factorio Wiki" title="Search Official Factorio Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-Random-page"><a href="https://wiki.factorio.com/Special:RandomRootpage" rel="nofollow">Random page</a></li><li id="n-Wiki-rules"><a href="https://wiki.factorio.com/Factorio:Wiki_rules" rel="nofollow">Wiki rules</a></li><li id="n-Wiki-style-guide"><a href="https://wiki.factorio.com/Factorio:Style_guide" rel="nofollow">Wiki style guide</a></li><li id="n-Editor-noticeboard"><a href="https://wiki.factorio.com/Factorio:Editor_noticeboard" rel="nofollow">Editor noticeboard</a></li><li id="n-Admin-noticeboard"><a href="https://wiki.factorio.com/Factorio:Admin_noticeboard" rel="nofollow">Admin noticeboard</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Portals' aria-labelledby='p-Portals-label'>
+			<h3 id='p-Portals-label'>Portals</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Official-Website"><a href="http://www.factorio.com/" rel="nofollow">Official Website</a></li><li id="n-Official-Forum"><a href="http://forums.factorio.com" rel="nofollow">Official Forum</a></li><li id="n-Official-Subreddit"><a href="https://reddit.com/r/factorio" rel="nofollow">Official Subreddit</a></li><li id="n-Official-Mod-Portal"><a href="http://mods.factorio.com" rel="nofollow">Official Mod Portal</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Editor_Help' aria-labelledby='p-Editor_Help-label'>
+			<h3 id='p-Editor_Help-label'>Editor Help</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Mediawiki-general-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">Mediawiki general help</a></li><li id="n-Formatting"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Formatting">Formatting</a></li><li id="n-Images"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Images">Images</a></li><li id="n-Tables"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Tables">Tables</a></li><li id="n-Redirects"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Redirects">Redirects</a></li><li id="n-Templates"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Templates">Templates</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Water" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Water" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Water&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Water&amp;oldid=166137" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Water&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-custom-tb' aria-labelledby='p-custom-tb-label'>
+			<h3 id='p-custom-tb-label'>custom-tb</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Purge-page-cache"><a href="https://wiki.factorio.com/index.php?title=Water&amp;action=purge" rel="nofollow">Purge page cache</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 11 December 2018, at 20:18.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/Factorio:Privacy_policy" title="Factorio:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/Factorio:About" title="Factorio:About">About Official Factorio Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/Factorio:General_disclaimer" title="Factorio:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="/resources/assets/licenses/cc-by-nc-sa.png" alt="CC BY-NC-SA 3.0" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.472","walltime":"1.645","ppvisitednodes":{"value":39871,"limit":1000000},"ppgeneratednodes":{"value":11061,"limit":1000000},"postexpandincludesize":{"value":82053,"limit":2097152},"templateargumentsize":{"value":61409,"limit":2097152},"expansiondepth":{"value":19,"limit":40},"expensivefunctioncount":{"value":89,"limit":10000},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":785,"limit":5000000},"timingprofile":["100.00% 1385.614      1 -total"," 67.20%  931.175      1 Template:IntermediateNav"," 66.53%  921.895      1 Template:Navbox"," 64.92%  899.530     53 Template:NavboxIconLink"," 55.75%  772.541    128 Template:ConvertName"," 22.48%  311.439      1 Infobox:Water"," 22.35%  309.737      1 Template:Infobox"," 17.70%  245.219     11 Template:Infobox/vrow"," 17.08%  236.683      2 Template:Item/parsing"," 15.48%  214.545    202 Template:Item/parsing/entry"]},"cachereport":{"timestamp":"20190213110842","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":1733});});</script>
+	</body>
+<!-- Cached/compressed 20190213110843 -->
+</html>

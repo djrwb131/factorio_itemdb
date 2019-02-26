@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Speed module - Factorio Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Speed_module","wgTitle":"Speed module","wgCurRevisionId":158911,"wgRevisionId":158911,"wgArticleId":33729,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["English page","Production","Modules"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Speed_module","wgRelevantArticleId":33729,"wgRequestId":"24ecf677e3fd0bf07f184e1c","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vectordark.styles":"ready"});mw.loader.implement("user.tokens@1y6dvd3",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.Tabber","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Edittools","skins.vectordark.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vectordark.styles&amp;only=styles&amp;skin=vectordark"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vectordark"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vectordark"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<meta name="twitter:title" content="Speed module - Factorio Wiki"/>
+<meta name="description" content="Increases a machine&#039;s speed by 20% and its energy consumption by 50%. This means that, at the cost of energy, the machine produces more items per minutes."/>
+<meta name="twitter:description" content="Increases a machine&#039;s speed by 20% and its energy consumption by 50%. This means that, at the cost of energy, the machine produces more items per minutes."/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Official Factorio Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.factorio.com/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Official Factorio Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115167276-2"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag("js", new Date());
+ gtag("config", "UA-115167276-2");
+</script>
+<meta property="og:title" content="Speed module - Factorio Wiki" />
+
+<meta property="og:description" content="Increases a machine&#039;s speed by 20% and its energy consumption by 50%. This means that, at the cost of energy, the machine produces more items per minutes."/>
+
+<meta property="og:image" content="https://wiki.factorio.com/images/Speed_module.png"/>
+
+<meta property="og:type" content="article"/>
+
+<meta property="og:site_name" content="Official Factorio Wiki"/>
+
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=Vectordark&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Speed_module rootpage-Speed_module skin-vectordark action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-languages-container" class="mw-indicator"><div class="languages-container">
+<p><span class="languages-message">
+In other languages:
+</span>
+<span class="languages-flags">
+<span></span>
+<span></span>
+<a href="/Speed_module/de" title="Deutsch"><img alt="Deutsch" src="/images/thumb/Flag_de.png/25px-Flag_de.png" width="25" height="16" class="flag" srcset="/images/Flag_de.png 1.5x" /></a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<a href="/Speed_module/pt-pt" title="Português"><img alt="Português" src="/images/thumb/Flag_pt-pt.png/25px-Flag_pt-pt.png" width="25" height="17" class="flag" srcset="/images/thumb/Flag_pt-pt.png/38px-Flag_pt-pt.png 1.5x, /images/thumb/Flag_pt-pt.png/50px-Flag_pt-pt.png 2x" /></a>
+<a href="/Speed_module/ru" title="Русский"><img alt="Русский" src="/images/thumb/Flag_ru.png/25px-Flag_ru.png" width="25" height="16" class="flag" srcset="/images/Flag_ru.png 1.5x" /></a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<a href="/Speed_module/zh" title="中文"><img alt="中文" src="/images/thumb/Flag_zh.png/25px-Flag_zh.png" width="25" height="17" class="flag" srcset="/images/thumb/Flag_zh.png/38px-Flag_zh.png 1.5x, /images/thumb/Flag_zh.png/50px-Flag_zh.png 2x" /></a>
+</span>
+</p>
+</div>
+</div>
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Speed module</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Official Factorio Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="infobox">
+<div class="infobox-header production">
+<table style="padding: 5px 0;">
+<tbody><tr>
+<td valign="top" style="width:32px;"><div class="factorio-icon" style="background-color:#929292;"><a href="/Speed_module" title="Speed module"><img alt="Speed module.png" src="/images/Speed_module.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div>
+</td>
+<td class="infobox-header-text"><span>Speed module</span>
+</td>
+<td class="plainlinks infobox-edit-link" valign="top" style="display: none;"><a rel="nofollow" class="external text" href="https://wiki.factorio.com/index.php?title=Infobox:Speed_module&amp;action=edit">Edit</a>
+</td></tr></tbody></table>
+</div>
+<div id="tabber-122eb2cb904e92e73a297a4813d6e0c2" class="tabber">
+			<div class="tabbertab" title="Normal mode">
+				<p class="mw-empty-elt">
+</p><table>
+<tbody><tr class="border-top">
+<td colspan="2">
+<p>Recipe
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">15</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Advanced_circuit" title="Advanced circuit"><img alt="Advanced circuit.png" src="/images/Advanced_circuit.png" width="32" height="32" /></a><div class="factorio-icon-text">5</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Electronic_circuit" title="Electronic circuit"><img alt="Electronic circuit.png" src="/images/Electronic_circuit.png" width="32" height="32" /></a><div class="factorio-icon-text">5</div></div>
+&#8594; <div class="factorio-icon" style="background-color:#999;"><a href="/Speed_module" title="Speed module"><img alt="Speed module.png" src="/images/Speed_module.png" width="32" height="32" /></a><div class="factorio-icon-text">1 </div></div> 
+</td>
+</tr>
+<tr class="border-top">
+<td colspan="2">
+<p>Total raw
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">68.75</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Copper_plate" title="Copper plate"><img alt="Copper plate.png" src="/images/Copper_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">32.5</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_plate" title="Iron plate"><img alt="Iron plate.png" src="/images/Iron_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">15</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Plastic_bar" title="Plastic bar"><img alt="Plastic bar.png" src="/images/Plastic_bar.png" width="32" height="32" /></a><div class="factorio-icon-text">10</div></div> 
+</td>
+</tr>
+</tbody></table><p class="mw-empty-elt"></p>
+			</div>
+			<div class="tabbertab" title="Expensive mode">
+				<p class="mw-empty-elt">
+</p><table>
+<tbody><tr class="border-top">
+<td colspan="2">
+<p>Recipe
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">15</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Advanced_circuit" title="Advanced circuit"><img alt="Advanced circuit.png" src="/images/Advanced_circuit.png" width="32" height="32" /></a><div class="factorio-icon-text">5</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Electronic_circuit" title="Electronic circuit"><img alt="Electronic circuit.png" src="/images/Electronic_circuit.png" width="32" height="32" /></a><div class="factorio-icon-text">5</div></div>
+&#8594; <div class="factorio-icon" style="background-color:#999;"><a href="/Speed_module" title="Speed module"><img alt="Speed module.png" src="/images/Speed_module.png" width="32" height="32" /></a><div class="factorio-icon-text">1 </div></div> 
+</td>
+</tr>
+<tr class="border-top">
+<td colspan="2">
+<p>Total raw
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">100</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Copper_plate" title="Copper plate"><img alt="Copper plate.png" src="/images/Copper_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">95</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_plate" title="Iron plate"><img alt="Iron plate.png" src="/images/Iron_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">30</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Plastic_bar" title="Plastic bar"><img alt="Plastic bar.png" src="/images/Plastic_bar.png" width="32" height="32" /></a><div class="factorio-icon-text">20</div></div> 
+</td>
+</tr>
+</tbody></table><p class="mw-empty-elt"></p>
+			</div></div>
+<table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tbody><tr class="border-top">
+<td>
+<p>Stack size
+</p>
+</td>
+<td>
+<p>50  
+</p>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="border-top">
+<td>
+<p>Energy consumption
+</p>
+</td>
+<td>
+<p>+50%   
+</p>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="border-top">
+<td>
+<p>Speed
+</p>
+</td>
+<td>
+<p>+20%  
+</p>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="border-top">
+<td>
+<p>Prototype type
+</p>
+</td>
+<td>
+<p>module  
+</p>
+</td>
+</tr>
+<tr class="border-top">
+<td>
+<p>Internal name
+</p>
+</td>
+<td>
+<p>speed-module  
+</p>
+</td>
+</tr>
+
+<tr class="border-top">
+<td colspan="2">
+<p>Required technologies
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#228B22;"><a href="/Speed_module_(research)" title="Speed module (research)"><img alt="Speed module (research).png" src="/images/thumb/Speed_module_%28research%29.png/32px-Speed_module_%28research%29.png" width="32" height="32" srcset="/images/thumb/Speed_module_%28research%29.png/48px-Speed_module_%28research%29.png 1.5x, /images/thumb/Speed_module_%28research%29.png/64px-Speed_module_%28research%29.png 2x" /></a><div class="factorio-icon-text"></div></div>                          
+</td>
+</tr>
+
+
+
+<tr class="border-top">
+<td colspan="2">
+<p>Produced by
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#929292;"><a href="/Crafting#Manual_crafting" title="Crafting#Manual crafting"><img alt="Hand icon.png" src="/images/Hand_icon.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_1" title="Assembling machine 1"><img alt="Assembling machine 1.png" src="/images/Assembling_machine_1.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div>
+<div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div>
+<div class="factorio-icon" style="background-color:#929292;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> 
+</td>
+</tr>
+<tr class="border-top">
+<td colspan="2">
+<p>Consumed by
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Destroyer_capsule" title="Destroyer capsule"><img alt="Destroyer capsule.png" src="/images/Destroyer_capsule.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/High_tech_science_pack" title="High tech science pack"><img alt="High tech science pack.png" src="/images/High_tech_science_pack.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Rocket_control_unit" title="Rocket control unit"><img alt="Rocket control unit.png" src="/images/Rocket_control_unit.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Speed_module_2" title="Speed module 2"><img alt="Speed module 2.png" src="/images/Speed_module_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> 
+</td>
+</tr>
+
+
+
+</tbody></table>
+</div><p>Increases a machine's speed by 20% and its energy consumption by 50%. This means that, at the cost of energy, the machine produces more items per minutes.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul><li><a href="/Module" title="Module">Modules</a>
+<ul><li><a href="/Speed_module_2" title="Speed module 2">Speed module 2</a></li>
+<li><a href="/Speed_module_3" title="Speed module 3">Speed module 3</a></li></ul></li></ul>
+<div class="navbox">
+<table class="navbox-inner">
+
+<tbody><tr>
+<th class="navbox-header" style="background:#5C8DC4;color:white" colspan="2">
+<div>
+<p>Production items
+</p>
+</div>
+</th>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Tools
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Iron_axe" title="Iron axe"><img alt="Iron axe.png" src="/images/thumb/Iron_axe.png/16px-Iron_axe.png" width="16" height="16" srcset="/images/thumb/Iron_axe.png/24px-Iron_axe.png 1.5x, /images/Iron_axe.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Iron_axe" title="Iron axe">Iron axe</a></li>
+<li><span class="navbox-icon"><a href="/Steel_axe" title="Steel axe"><img alt="Steel axe.png" src="/images/thumb/Steel_axe.png/16px-Steel_axe.png" width="16" height="16" srcset="/images/thumb/Steel_axe.png/24px-Steel_axe.png 1.5x, /images/Steel_axe.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Steel_axe" title="Steel axe">Steel axe</a></li>
+<li><span class="navbox-icon"><a href="/Repair_pack" title="Repair pack"><img alt="Repair pack.png" src="/images/thumb/Repair_pack.png/16px-Repair_pack.png" width="16" height="16" srcset="/images/thumb/Repair_pack.png/24px-Repair_pack.png 1.5x, /images/Repair_pack.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Repair_pack" title="Repair pack">Repair pack</a></li>
+<li><span class="navbox-icon"><a href="/Blueprint" title="Blueprint"><img alt="Blueprint.png" src="/images/thumb/Blueprint.png/16px-Blueprint.png" width="16" height="16" srcset="/images/thumb/Blueprint.png/24px-Blueprint.png 1.5x, /images/Blueprint.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Blueprint" title="Blueprint">Blueprint</a></li>
+<li><span class="navbox-icon"><a href="/Deconstruction_planner" title="Deconstruction planner"><img alt="Deconstruction planner.png" src="/images/thumb/Deconstruction_planner.png/16px-Deconstruction_planner.png" width="16" height="16" srcset="/images/thumb/Deconstruction_planner.png/24px-Deconstruction_planner.png 1.5x, /images/Deconstruction_planner.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Deconstruction_planner" title="Deconstruction planner">Deconstruction planner</a></li>
+<li><span class="navbox-icon"><a href="/Blueprint_book" title="Blueprint book"><img alt="Blueprint book.png" src="/images/thumb/Blueprint_book.png/16px-Blueprint_book.png" width="16" height="16" srcset="/images/thumb/Blueprint_book.png/24px-Blueprint_book.png 1.5x, /images/Blueprint_book.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Blueprint_book" title="Blueprint book">Blueprint book</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p><a href="/Electric_system" title="Electric system">Electricity</a>
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Boiler" title="Boiler"><img alt="Boiler.png" src="/images/thumb/Boiler.png/16px-Boiler.png" width="16" height="16" srcset="/images/thumb/Boiler.png/24px-Boiler.png 1.5x, /images/Boiler.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Boiler" title="Boiler">Boiler</a></li>
+<li><span class="navbox-icon"><a href="/Steam_engine" title="Steam engine"><img alt="Steam engine.png" src="/images/thumb/Steam_engine.png/16px-Steam_engine.png" width="16" height="16" srcset="/images/thumb/Steam_engine.png/24px-Steam_engine.png 1.5x, /images/Steam_engine.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Steam_engine" title="Steam engine">Steam engine</a></li>
+<li><span class="navbox-icon"><a href="/Steam_turbine" title="Steam turbine"><img alt="Steam turbine.png" src="/images/thumb/Steam_turbine.png/16px-Steam_turbine.png" width="16" height="16" srcset="/images/thumb/Steam_turbine.png/24px-Steam_turbine.png 1.5x, /images/Steam_turbine.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Steam_turbine" title="Steam turbine">Steam turbine</a></li>
+<li><span class="navbox-icon"><a href="/Solar_panel" title="Solar panel"><img alt="Solar panel.png" src="/images/thumb/Solar_panel.png/16px-Solar_panel.png" width="16" height="16" srcset="/images/thumb/Solar_panel.png/24px-Solar_panel.png 1.5x, /images/Solar_panel.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Solar_panel" title="Solar panel">Solar panel</a></li>
+<li><span class="navbox-icon"><a href="/Accumulator" title="Accumulator"><img alt="Accumulator.png" src="/images/thumb/Accumulator.png/16px-Accumulator.png" width="16" height="16" srcset="/images/thumb/Accumulator.png/24px-Accumulator.png 1.5x, /images/Accumulator.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Accumulator" title="Accumulator">Accumulator</a></li>
+<li><span class="navbox-icon"><a href="/Nuclear_reactor" title="Nuclear reactor"><img alt="Nuclear reactor.png" src="/images/thumb/Nuclear_reactor.png/16px-Nuclear_reactor.png" width="16" height="16" srcset="/images/thumb/Nuclear_reactor.png/24px-Nuclear_reactor.png 1.5x, /images/Nuclear_reactor.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Nuclear_reactor" title="Nuclear reactor">Nuclear reactor</a></li>
+<li><span class="navbox-icon"><a href="/Heat_exchanger" title="Heat exchanger"><img alt="Heat exchanger.png" src="/images/thumb/Heat_exchanger.png/16px-Heat_exchanger.png" width="16" height="16" srcset="/images/thumb/Heat_exchanger.png/24px-Heat_exchanger.png 1.5x, /images/Heat_exchanger.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Heat_exchanger" title="Heat exchanger">Heat exchanger</a></li>
+<li><span class="navbox-icon"><a href="/Heat_pipe" title="Heat pipe"><img alt="Heat pipe.png" src="/images/thumb/Heat_pipe.png/16px-Heat_pipe.png" width="16" height="16" srcset="/images/thumb/Heat_pipe.png/24px-Heat_pipe.png 1.5x, /images/Heat_pipe.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Heat_pipe" title="Heat pipe">Heat pipe</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Resource extraction
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Burner_mining_drill" title="Burner mining drill"><img alt="Burner mining drill.png" src="/images/thumb/Burner_mining_drill.png/16px-Burner_mining_drill.png" width="16" height="16" srcset="/images/thumb/Burner_mining_drill.png/24px-Burner_mining_drill.png 1.5x, /images/Burner_mining_drill.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Burner_mining_drill" title="Burner mining drill">Burner mining drill</a></li>
+<li><span class="navbox-icon"><a href="/Electric_mining_drill" title="Electric mining drill"><img alt="Electric mining drill.png" src="/images/thumb/Electric_mining_drill.png/16px-Electric_mining_drill.png" width="16" height="16" srcset="/images/thumb/Electric_mining_drill.png/24px-Electric_mining_drill.png 1.5x, /images/Electric_mining_drill.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Electric_mining_drill" title="Electric mining drill">Electric mining drill</a></li>
+<li><span class="navbox-icon"><a href="/Offshore_pump" title="Offshore pump"><img alt="Offshore pump.png" src="/images/thumb/Offshore_pump.png/16px-Offshore_pump.png" width="16" height="16" srcset="/images/thumb/Offshore_pump.png/24px-Offshore_pump.png 1.5x, /images/Offshore_pump.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Offshore_pump" title="Offshore pump">Offshore pump</a></li>
+<li><span class="navbox-icon"><a href="/Pumpjack" title="Pumpjack"><img alt="Pumpjack.png" src="/images/thumb/Pumpjack.png/16px-Pumpjack.png" width="16" height="16" srcset="/images/thumb/Pumpjack.png/24px-Pumpjack.png 1.5x, /images/Pumpjack.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Pumpjack" title="Pumpjack">Pumpjack</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Furnaces
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Stone_furnace" title="Stone furnace"><img alt="Stone furnace.png" src="/images/thumb/Stone_furnace.png/16px-Stone_furnace.png" width="16" height="16" srcset="/images/thumb/Stone_furnace.png/24px-Stone_furnace.png 1.5x, /images/Stone_furnace.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Stone_furnace" title="Stone furnace">Stone furnace</a></li>
+<li><span class="navbox-icon"><a href="/Steel_furnace" title="Steel furnace"><img alt="Steel furnace.png" src="/images/thumb/Steel_furnace.png/16px-Steel_furnace.png" width="16" height="16" srcset="/images/thumb/Steel_furnace.png/24px-Steel_furnace.png 1.5x, /images/Steel_furnace.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Steel_furnace" title="Steel furnace">Steel furnace</a></li>
+<li><span class="navbox-icon"><a href="/Electric_furnace" title="Electric furnace"><img alt="Electric furnace.png" src="/images/thumb/Electric_furnace.png/16px-Electric_furnace.png" width="16" height="16" srcset="/images/thumb/Electric_furnace.png/24px-Electric_furnace.png 1.5x, /images/Electric_furnace.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Electric_furnace" title="Electric furnace">Electric furnace</a></li></ul>
+</div>
+</td>
+</tr>
+
+
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Production
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Assembling_machine_1" title="Assembling machine 1"><img alt="Assembling machine 1.png" src="/images/thumb/Assembling_machine_1.png/16px-Assembling_machine_1.png" width="16" height="16" srcset="/images/thumb/Assembling_machine_1.png/24px-Assembling_machine_1.png 1.5x, /images/Assembling_machine_1.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Assembling_machine_1" title="Assembling machine 1">Assembling machine 1</a></li>
+<li><span class="navbox-icon"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/thumb/Assembling_machine_2.png/16px-Assembling_machine_2.png" width="16" height="16" srcset="/images/thumb/Assembling_machine_2.png/24px-Assembling_machine_2.png 1.5x, /images/Assembling_machine_2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Assembling_machine_2" title="Assembling machine 2">Assembling machine 2</a></li>
+<li><span class="navbox-icon"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/thumb/Assembling_machine_3.png/16px-Assembling_machine_3.png" width="16" height="16" srcset="/images/thumb/Assembling_machine_3.png/24px-Assembling_machine_3.png 1.5x, /images/Assembling_machine_3.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Assembling_machine_3" title="Assembling machine 3">Assembling machine 3</a></li>
+<li><span class="navbox-icon"><a href="/Oil_refinery" title="Oil refinery"><img alt="Oil refinery.png" src="/images/thumb/Oil_refinery.png/16px-Oil_refinery.png" width="16" height="16" srcset="/images/thumb/Oil_refinery.png/24px-Oil_refinery.png 1.5x, /images/Oil_refinery.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Oil_refinery" title="Oil refinery">Oil refinery</a></li>
+<li><span class="navbox-icon"><a href="/Chemical_plant" title="Chemical plant"><img alt="Chemical plant.png" src="/images/thumb/Chemical_plant.png/16px-Chemical_plant.png" width="16" height="16" srcset="/images/thumb/Chemical_plant.png/24px-Chemical_plant.png 1.5x, /images/Chemical_plant.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Chemical_plant" title="Chemical plant">Chemical plant</a></li>
+<li><span class="navbox-icon"><a href="/Centrifuge" title="Centrifuge"><img alt="Centrifuge.png" src="/images/thumb/Centrifuge.png/16px-Centrifuge.png" width="16" height="16" srcset="/images/thumb/Centrifuge.png/24px-Centrifuge.png 1.5x, /images/Centrifuge.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Centrifuge" title="Centrifuge">Centrifuge</a></li>
+<li><span class="navbox-icon"><a href="/Lab" title="Lab"><img alt="Lab.png" src="/images/thumb/Lab.png/16px-Lab.png" width="16" height="16" srcset="/images/thumb/Lab.png/24px-Lab.png 1.5x, /images/Lab.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Lab" title="Lab">Lab</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p><a href="/Module" title="Module">Modules</a>
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Beacon" title="Beacon"><img alt="Beacon.png" src="/images/thumb/Beacon.png/16px-Beacon.png" width="16" height="16" srcset="/images/thumb/Beacon.png/24px-Beacon.png 1.5x, /images/Beacon.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Beacon" title="Beacon">Beacon</a></li>
+<li><span class="navbox-icon"><a href="/Speed_module" title="Speed module"><img alt="Speed module.png" src="/images/thumb/Speed_module.png/16px-Speed_module.png" width="16" height="16" srcset="/images/thumb/Speed_module.png/24px-Speed_module.png 1.5x, /images/Speed_module.png 2x" /></a><span class="navbox-icon-text"></span></span> <a class="mw-selflink selflink">Speed module</a></li>
+<li><span class="navbox-icon"><a href="/Speed_module_2" title="Speed module 2"><img alt="Speed module 2.png" src="/images/thumb/Speed_module_2.png/16px-Speed_module_2.png" width="16" height="16" srcset="/images/thumb/Speed_module_2.png/24px-Speed_module_2.png 1.5x, /images/Speed_module_2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Speed_module_2" title="Speed module 2">Speed module 2</a></li>
+<li><span class="navbox-icon"><a href="/Speed_module_3" title="Speed module 3"><img alt="Speed module 3.png" src="/images/thumb/Speed_module_3.png/16px-Speed_module_3.png" width="16" height="16" srcset="/images/thumb/Speed_module_3.png/24px-Speed_module_3.png 1.5x, /images/Speed_module_3.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Speed_module_3" title="Speed module 3">Speed module 3</a></li>
+<li><span class="navbox-icon"><a href="/Efficiency_module" title="Efficiency module"><img alt="Efficiency module.png" src="/images/thumb/Efficiency_module.png/16px-Efficiency_module.png" width="16" height="16" srcset="/images/thumb/Efficiency_module.png/24px-Efficiency_module.png 1.5x, /images/Efficiency_module.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Efficiency_module" title="Efficiency module">Efficiency module</a></li>
+<li><span class="navbox-icon"><a href="/Efficiency_module_2" title="Efficiency module 2"><img alt="Efficiency module 2.png" src="/images/thumb/Efficiency_module_2.png/16px-Efficiency_module_2.png" width="16" height="16" srcset="/images/thumb/Efficiency_module_2.png/24px-Efficiency_module_2.png 1.5x, /images/Efficiency_module_2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Efficiency_module_2" title="Efficiency module 2">Efficiency module 2</a></li>
+<li><span class="navbox-icon"><a href="/Efficiency_module_3" title="Efficiency module 3"><img alt="Efficiency module 3.png" src="/images/thumb/Efficiency_module_3.png/16px-Efficiency_module_3.png" width="16" height="16" srcset="/images/thumb/Efficiency_module_3.png/24px-Efficiency_module_3.png 1.5x, /images/Efficiency_module_3.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Efficiency_module_3" title="Efficiency module 3">Efficiency module 3</a></li>
+<li><span class="navbox-icon"><a href="/Productivity_module" title="Productivity module"><img alt="Productivity module.png" src="/images/thumb/Productivity_module.png/16px-Productivity_module.png" width="16" height="16" srcset="/images/thumb/Productivity_module.png/24px-Productivity_module.png 1.5x, /images/Productivity_module.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Productivity_module" title="Productivity module">Productivity module</a></li>
+<li><span class="navbox-icon"><a href="/Productivity_module_2" title="Productivity module 2"><img alt="Productivity module 2.png" src="/images/thumb/Productivity_module_2.png/16px-Productivity_module_2.png" width="16" height="16" srcset="/images/thumb/Productivity_module_2.png/24px-Productivity_module_2.png 1.5x, /images/Productivity_module_2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Productivity_module_2" title="Productivity module 2">Productivity module 2</a></li>
+<li><span class="navbox-icon"><a href="/Productivity_module_3" title="Productivity module 3"><img alt="Productivity module 3.png" src="/images/thumb/Productivity_module_3.png/16px-Productivity_module_3.png" width="16" height="16" srcset="/images/thumb/Productivity_module_3.png/24px-Productivity_module_3.png 1.5x, /images/Productivity_module_3.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Productivity_module_3" title="Productivity module 3">Productivity module 3</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p><a href="/Factorio:Navigation" title="Factorio:Navigation">Navigation</a>
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><a href="/Template:LogisticsNav" title="Template:LogisticsNav">Logistics</a></li>
+<li><a href="/Template:CombatNav" title="Template:CombatNav">Combat</a></li>
+<li><a href="/Template:IntermediateNav" title="Template:IntermediateNav">Intermediate products</a></li>
+<li><a href="/Template:TechNav" title="Template:TechNav">Technology</a></li></ul>
+</div>
+</td>
+</tr>
+
+
+
+
+
+
+</tbody></table>
+</div>
+
+<!-- 
+NewPP limit report
+Cached time: 20190207210514
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 1.336 seconds
+Real time usage: 4.060 seconds
+Preprocessor visited node count: 40309/1000000
+Preprocessor generated node count: 14190/1000000
+Post‐expand include size: 105400/2097152 bytes
+Template argument size: 66598/2097152 bytes
+Highest expansion depth: 27/40
+Expensive parser function count: 72/10000
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5037/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 3742.499      1 -total
+ 50.01% 1871.610      1 Infobox:Speed_module
+ 49.58% 1855.465      1 Template:Infobox
+ 43.21% 1617.245      1 Template:ProductionNav
+ 43.01% 1609.586      1 Template:Navbox
+ 41.44% 1550.794     15 Template:Infobox/vrow
+ 41.17% 1540.777     38 Template:NavboxIconLink
+ 39.73% 1486.777    131 Template:ConvertName
+ 28.72% 1074.849     24 Template:Icon/special
+ 26.64%  996.896     27 Template:Icon
+-->
+</div>
+<!-- Saved in parser cache with key mediawiki-wiki:pcache:idhash:33729-0!canonical and timestamp 20190207210510 and revision id 158911
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.factorio.com/index.php?title=Speed_module&amp;oldid=158911">https://wiki.factorio.com/index.php?title=Speed_module&amp;oldid=158911</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:English_page" title="Category:English page">English page</a></li><li><a href="/Category:Production" title="Category:Production">Production</a></li><li><a href="/Category:Modules" title="Category:Modules">Modules</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Speed+module" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li><li id="pt-createaccount"><a href="/Special:RequestAccount" title="You are encouraged to create an account and log in; however, it is not mandatory">Request account</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/Speed_module"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Speed_module&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/Speed_module" >View</a></span></li>
+															<li id="ca-viewsource"><span><a href="/index.php?title=Speed_module&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Speed_module&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">History</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search the Official Factorio Wiki" title="Search Official Factorio Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-Random-page"><a href="https://wiki.factorio.com/Special:RandomRootpage" rel="nofollow">Random page</a></li><li id="n-Wiki-rules"><a href="https://wiki.factorio.com/Factorio:Wiki_rules" rel="nofollow">Wiki rules</a></li><li id="n-Wiki-style-guide"><a href="https://wiki.factorio.com/Factorio:Style_guide" rel="nofollow">Wiki style guide</a></li><li id="n-Editor-noticeboard"><a href="https://wiki.factorio.com/Factorio:Editor_noticeboard" rel="nofollow">Editor noticeboard</a></li><li id="n-Admin-noticeboard"><a href="https://wiki.factorio.com/Factorio:Admin_noticeboard" rel="nofollow">Admin noticeboard</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Portals' aria-labelledby='p-Portals-label'>
+			<h3 id='p-Portals-label'>Portals</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Official-Website"><a href="http://www.factorio.com/" rel="nofollow">Official Website</a></li><li id="n-Official-Forum"><a href="http://forums.factorio.com" rel="nofollow">Official Forum</a></li><li id="n-Official-Subreddit"><a href="https://reddit.com/r/factorio" rel="nofollow">Official Subreddit</a></li><li id="n-Official-Mod-Portal"><a href="http://mods.factorio.com" rel="nofollow">Official Mod Portal</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Editor_Help' aria-labelledby='p-Editor_Help-label'>
+			<h3 id='p-Editor_Help-label'>Editor Help</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Mediawiki-general-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">Mediawiki general help</a></li><li id="n-Formatting"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Formatting">Formatting</a></li><li id="n-Images"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Images">Images</a></li><li id="n-Tables"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Tables">Tables</a></li><li id="n-Redirects"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Redirects">Redirects</a></li><li id="n-Templates"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Templates">Templates</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Speed_module" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Speed_module" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Speed_module&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Speed_module&amp;oldid=158911" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Speed_module&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-custom-tb' aria-labelledby='p-custom-tb-label'>
+			<h3 id='p-custom-tb-label'>custom-tb</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Purge-page-cache"><a href="https://wiki.factorio.com/index.php?title=Speed_module&amp;action=purge" rel="nofollow">Purge page cache</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 7 May 2018, at 11:05.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/Factorio:Privacy_policy" title="Factorio:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/Factorio:About" title="Factorio:About">About Official Factorio Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/Factorio:General_disclaimer" title="Factorio:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="/resources/assets/licenses/cc-by-nc-sa.png" alt="CC BY-NC-SA 3.0" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.336","walltime":"4.060","ppvisitednodes":{"value":40309,"limit":1000000},"ppgeneratednodes":{"value":14190,"limit":1000000},"postexpandincludesize":{"value":105400,"limit":2097152},"templateargumentsize":{"value":66598,"limit":2097152},"expansiondepth":{"value":27,"limit":40},"expensivefunctioncount":{"value":72,"limit":10000},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5037,"limit":5000000},"timingprofile":["100.00% 3742.499      1 -total"," 50.01% 1871.610      1 Infobox:Speed_module"," 49.58% 1855.465      1 Template:Infobox"," 43.21% 1617.245      1 Template:ProductionNav"," 43.01% 1609.586      1 Template:Navbox"," 41.44% 1550.794     15 Template:Infobox/vrow"," 41.17% 1540.777     38 Template:NavboxIconLink"," 39.73% 1486.777    131 Template:ConvertName"," 28.72% 1074.849     24 Template:Icon/special"," 26.64%  996.896     27 Template:Icon"]},"cachereport":{"timestamp":"20190207210514","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":85});});</script>
+	</body>
+<!-- Cached/compressed 20190207210614 -->
+</html>

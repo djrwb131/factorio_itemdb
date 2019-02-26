@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Submachine gun - Factorio Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Submachine_gun","wgTitle":"Submachine gun","wgCurRevisionId":165035,"wgRevisionId":165035,"wgArticleId":31846,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["English page","Combat","Weapons"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Submachine_gun","wgRelevantArticleId":31846,"wgRequestId":"a369f15d0c921d29891e63a0","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vectordark.styles":"ready"});mw.loader.implement("user.tokens@1y6dvd3",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.Tabber","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Edittools","skins.vectordark.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vectordark.styles&amp;only=styles&amp;skin=vectordark"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vectordark"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vectordark"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<meta name="twitter:title" content="Submachine gun - Factorio Wiki"/>
+<meta name="description" content="The &lt;b&gt;submachine gun&lt;/b&gt; is an upgrade from the pistol. It fires the same ammunition types and deals the same damage as the pistol, but has a much higher rate of fire. This same type of weapon is installed in the car and tank; the car and tank&#039;s version of the submachine gun fires +5 rounds per second and has +2 range compared to the handheld one, additionally the one in the tank fires at +100% (doubled) damage. This weapon can easily handle moderate waves of small biters, even with regular ammunition, but destroying nests efficiently requires damage upgrades or the more expensive piercing round."/>
+<meta name="twitter:description" content="The &lt;b&gt;submachine gun&lt;/b&gt; is an upgrade from the pistol. It fires the same ammunition types and deals the same damage as the pistol, but has a much higher rate of fire. This same type of weapon is installed in the car and tank; the car and tank&#039;s version of the submachine gun fires +5 rounds per second and has +2 range compared to the handheld one, additionally the one in the tank fires at +100% (doubled) damage. This weapon can easily handle moderate waves of small biters, even with regular ammunition, but destroying nests efficiently requires damage upgrades or the more expensive piercing round."/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Official Factorio Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.factorio.com/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Official Factorio Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115167276-2"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag("js", new Date());
+ gtag("config", "UA-115167276-2");
+</script>
+<meta property="og:title" content="Submachine gun - Factorio Wiki" />
+
+<meta property="og:description" content="The &lt;b&gt;submachine gun&lt;/b&gt; is an upgrade from the pistol. It fires the same ammunition types and deals the same damage as the pistol, but has a much higher rate of fire. This same type of weapon is installed in the car and tank; the car and tank&#039;s version of the submachine gun fires +5 rounds per second and has +2 range compared to the handheld one, additionally the one in the tank fires at +100% (doubled) damage. This weapon can easily handle moderate waves of small biters, even with regular ammunition, but destroying nests efficiently requires damage upgrades or the more expensive piercing round."/>
+
+<meta property="og:image" content="https://wiki.factorio.com/images/Player_submachine_or_pistol.png"/>
+
+<meta property="og:type" content="article"/>
+
+<meta property="og:site_name" content="Official Factorio Wiki"/>
+
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=Vectordark&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Submachine_gun rootpage-Submachine_gun skin-vectordark action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-languages-container" class="mw-indicator"><div class="languages-container">
+<p><span class="languages-message">
+In other languages:
+</span>
+<span class="languages-flags">
+<span></span>
+<span></span>
+<a href="/Submachine_gun/de" title="Deutsch"><img alt="Deutsch" src="/images/thumb/Flag_de.png/25px-Flag_de.png" width="25" height="16" class="flag" srcset="/images/Flag_de.png 1.5x" /></a>
+<span></span>
+<a href="/Submachine_gun/es" title="Español"><img alt="Español" src="/images/thumb/Flag_es.png/25px-Flag_es.png" width="25" height="16" class="flag" srcset="/images/Flag_es.png 1.5x" /></a>
+<a href="/Submachine_gun/fr" title="Français"><img alt="Français" src="/images/thumb/Flag_fr.png/25px-Flag_fr.png" width="25" height="16" class="flag" srcset="/images/Flag_fr.png 1.5x" /></a>
+<span></span>
+<span></span>
+<a href="/Submachine_gun/ja" title="日本語"><img alt="日本語" src="/images/thumb/Flag_ja.png/25px-Flag_ja.png" width="25" height="17" class="flag" srcset="/images/thumb/Flag_ja.png/38px-Flag_ja.png 1.5x, /images/thumb/Flag_ja.png/50px-Flag_ja.png 2x" /></a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<a href="/Submachine_gun/ru" title="Русский"><img alt="Русский" src="/images/thumb/Flag_ru.png/25px-Flag_ru.png" width="25" height="16" class="flag" srcset="/images/Flag_ru.png 1.5x" /></a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<a href="/Submachine_gun/zh" title="中文"><img alt="中文" src="/images/thumb/Flag_zh.png/25px-Flag_zh.png" width="25" height="17" class="flag" srcset="/images/thumb/Flag_zh.png/38px-Flag_zh.png 1.5x, /images/thumb/Flag_zh.png/50px-Flag_zh.png 2x" /></a>
+</span>
+</p>
+</div>
+</div>
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Submachine gun</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Official Factorio Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="infobox">
+<div class="infobox-header combat">
+<table style="padding: 5px 0;">
+<tbody><tr>
+<td valign="top" style="width:32px;"><div class="factorio-icon" style="background-color:#929292;"><a href="/Submachine_gun" title="Submachine gun"><img alt="Submachine gun.png" src="/images/Submachine_gun.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div>
+</td>
+<td class="infobox-header-text"><span>Submachine gun</span>
+</td>
+<td class="plainlinks infobox-edit-link" valign="top" style="display: none;"><a rel="nofollow" class="external text" href="https://wiki.factorio.com/index.php?title=Infobox:Submachine_gun&amp;action=edit">Edit</a>
+</td></tr></tbody></table>
+</div>
+<div class="infobox-image">
+<p><a href="/File:Player_submachine_or_pistol.png" class="image"><img alt="Player submachine or pistol.png" src="/images/Player_submachine_or_pistol.png" width="300" height="300" /></a>
+</p>
+</div><div id="tabber-b5388c52c3af891e505f021f08ba4009" class="tabber">
+			<div class="tabbertab" title="Normal mode">
+				<p class="mw-empty-elt">
+</p><table>
+<tbody><tr class="border-top">
+<td colspan="2">
+<p>Recipe
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">10</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Copper_plate" title="Copper plate"><img alt="Copper plate.png" src="/images/Copper_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">5</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_gear_wheel" title="Iron gear wheel"><img alt="Iron gear wheel.png" src="/images/Iron_gear_wheel.png" width="32" height="32" /></a><div class="factorio-icon-text">10</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_plate" title="Iron plate"><img alt="Iron plate.png" src="/images/Iron_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">10</div></div>
+&#8594; <div class="factorio-icon" style="background-color:#999;"><a href="/Submachine_gun" title="Submachine gun"><img alt="Submachine gun.png" src="/images/Submachine_gun.png" width="32" height="32" /></a><div class="factorio-icon-text">1 </div></div> 
+</td>
+</tr>
+<tr class="border-top">
+<td colspan="2">
+<p>Total raw
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">15</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Copper_plate" title="Copper plate"><img alt="Copper plate.png" src="/images/Copper_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">5</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_plate" title="Iron plate"><img alt="Iron plate.png" src="/images/Iron_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">30</div></div> 
+</td>
+</tr>
+</tbody></table><p class="mw-empty-elt"></p>
+			</div>
+			<div class="tabbertab" title="Expensive mode">
+				<p class="mw-empty-elt">
+</p><table>
+<tbody><tr class="border-top">
+<td colspan="2">
+<p>Recipe
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">10</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Copper_plate" title="Copper plate"><img alt="Copper plate.png" src="/images/Copper_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">20</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_gear_wheel" title="Iron gear wheel"><img alt="Iron gear wheel.png" src="/images/Iron_gear_wheel.png" width="32" height="32" /></a><div class="factorio-icon-text">15</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_plate" title="Iron plate"><img alt="Iron plate.png" src="/images/Iron_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">30</div></div>
+&#8594; <div class="factorio-icon" style="background-color:#999;"><a href="/Submachine_gun" title="Submachine gun"><img alt="Submachine gun.png" src="/images/Submachine_gun.png" width="32" height="32" /></a><div class="factorio-icon-text">1 </div></div> 
+</td>
+</tr>
+<tr class="border-top">
+<td colspan="2">
+<p>Total raw
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#999;"><a href="/Time" title="Time"><img alt="Time icon.png" src="/images/Time_icon.png" width="32" height="32" /></a><div class="factorio-icon-text">17.5</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Copper_plate" title="Copper plate"><img alt="Copper plate.png" src="/images/Copper_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">20</div></div>+
+<div class="factorio-icon" style="background-color:#999;"><a href="/Iron_plate" title="Iron plate"><img alt="Iron plate.png" src="/images/Iron_plate.png" width="32" height="32" /></a><div class="factorio-icon-text">90</div></div> 
+</td>
+</tr>
+</tbody></table><p class="mw-empty-elt"></p>
+			</div></div>
+<table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tbody><tr class="border-top">
+<td>
+<p>Stack size
+</p>
+</td>
+<td>
+<p>5  
+</p>
+</td>
+</tr>
+<tr class="border-top">
+<td>
+<p>Range
+</p>
+</td>
+<td>
+<p>18  
+</p>
+</td>
+</tr>
+<tr class="border-top">
+<td>
+<p>Shooting speed
+</p>
+</td>
+<td>
+<p>10/s  
+</p>
+</td>
+</tr>
+
+
+
+
+
+
+<tr class="border-top">
+<td>
+<p>Ammunition
+</p>
+</td>
+<td>
+<div class="factorio-icon" style="background-color:#999;"><a href="/Firearm_magazine" title="Firearm magazine"><img alt="Firearm magazine.png" src="/images/Firearm_magazine.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Piercing_rounds_magazine" title="Piercing rounds magazine"><img alt="Piercing rounds magazine.png" src="/images/Piercing_rounds_magazine.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Uranium_rounds_magazine" title="Uranium rounds magazine"><img alt="Uranium rounds magazine.png" src="/images/Uranium_rounds_magazine.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> 
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="border-top">
+<td>
+<p>Prototype type
+</p>
+</td>
+<td>
+<p>gun  
+</p>
+</td>
+</tr>
+<tr class="border-top">
+<td>
+<p>Internal name
+</p>
+</td>
+<td>
+<p>submachine-gun  
+</p>
+</td>
+</tr>
+
+<tr class="border-top">
+<td colspan="2">
+<p>Required technologies
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#228B22;"><a href="/Military_(research)" title="Military (research)"><img alt="Military (research).png" src="/images/thumb/Military_%28research%29.png/32px-Military_%28research%29.png" width="32" height="32" srcset="/images/thumb/Military_%28research%29.png/48px-Military_%28research%29.png 1.5x, /images/thumb/Military_%28research%29.png/64px-Military_%28research%29.png 2x" /></a><div class="factorio-icon-text"></div></div>                          
+</td>
+</tr>
+
+
+<tr class="border-top">
+<td colspan="2">
+<p>Boosting technologies
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#228B22;"><a href="/Bullet_damage_(research)" title="Bullet damage (research)"><img alt="Bullet damage (research).png" src="/images/thumb/Bullet_damage_%28research%29.png/32px-Bullet_damage_%28research%29.png" width="32" height="32" srcset="/images/thumb/Bullet_damage_%28research%29.png/48px-Bullet_damage_%28research%29.png 1.5x, /images/thumb/Bullet_damage_%28research%29.png/64px-Bullet_damage_%28research%29.png 2x" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#228B22;"><a href="/Bullet_shooting_speed_(research)" title="Bullet shooting speed (research)"><img alt="Bullet shooting speed (research).png" src="/images/thumb/Bullet_shooting_speed_%28research%29.png/32px-Bullet_shooting_speed_%28research%29.png" width="32" height="32" srcset="/images/thumb/Bullet_shooting_speed_%28research%29.png/48px-Bullet_shooting_speed_%28research%29.png 1.5x, /images/thumb/Bullet_shooting_speed_%28research%29.png/64px-Bullet_shooting_speed_%28research%29.png 2x" /></a><div class="factorio-icon-text"></div></div> 
+</td>
+</tr>
+<tr class="border-top">
+<td colspan="2">
+<p>Produced by
+</p>
+</td>
+</tr>
+<tr>
+<td class="infobox-vrow-value" colspan="2">
+<div class="factorio-icon" style="background-color:#929292;"><a href="/Crafting#Manual_crafting" title="Crafting#Manual crafting"><img alt="Hand icon.png" src="/images/Hand_icon.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Assembling_machine_2" title="Assembling machine 2"><img alt="Assembling machine 2.png" src="/images/Assembling_machine_2.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div><div class="factorio-icon" style="background-color:#999;"><a href="/Assembling_machine_3" title="Assembling machine 3"><img alt="Assembling machine 3.png" src="/images/Assembling_machine_3.png" width="32" height="32" /></a><div class="factorio-icon-text"></div></div> 
+</td>
+</tr>
+
+
+
+
+</tbody></table>
+</div><p>The <b>submachine gun</b> is an upgrade from the <a href="/Pistol" title="Pistol">pistol</a>. It fires the same ammunition types and deals the same damage as the pistol, but has a much higher rate of fire. This same type of weapon is installed in the <a href="/Car" title="Car">car</a> and <a href="/Tank" title="Tank">tank</a>; the car and tank's version of the submachine gun fires +5 rounds per second and has +2 range compared to the handheld one, additionally the one in the tank fires at +100% (doubled) damage. This weapon can easily handle moderate waves of small biters, even with <a href="/Firearm_magazine" title="Firearm magazine">regular ammunition</a>, but destroying nests efficiently requires damage upgrades or the more expensive <a href="/Piercing_rounds_magazine" title="Piercing rounds magazine">piercing round</a>.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul><li><a href="/Pistol" title="Pistol">Pistol</a></li>
+<li><a href="/Shotgun" title="Shotgun">Shotgun</a></li></ul>
+<p><br />
+</p>
+<div class="navbox">
+<table class="navbox-inner">
+
+<tbody><tr>
+<th class="navbox-header" style="background:#5C8DC4;color:white" colspan="2">
+<div>
+<p>Combat items
+</p>
+</div>
+</th>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Weapons
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Pistol" title="Pistol"><img alt="Pistol.png" src="/images/thumb/Pistol.png/16px-Pistol.png" width="16" height="16" srcset="/images/thumb/Pistol.png/24px-Pistol.png 1.5x, /images/Pistol.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Pistol" title="Pistol">Pistol</a></li>
+<li><span class="navbox-icon"><a href="/Submachine_gun" title="Submachine gun"><img alt="Submachine gun.png" src="/images/thumb/Submachine_gun.png/16px-Submachine_gun.png" width="16" height="16" srcset="/images/thumb/Submachine_gun.png/24px-Submachine_gun.png 1.5x, /images/Submachine_gun.png 2x" /></a><span class="navbox-icon-text"></span></span> <a class="mw-selflink selflink">Submachine gun</a></li>
+<li><span class="navbox-icon"><a href="/Shotgun" title="Shotgun"><img alt="Shotgun.png" src="/images/thumb/Shotgun.png/16px-Shotgun.png" width="16" height="16" srcset="/images/thumb/Shotgun.png/24px-Shotgun.png 1.5x, /images/Shotgun.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Shotgun" title="Shotgun">Shotgun</a></li>
+<li><span class="navbox-icon"><a href="/Combat_shotgun" title="Combat shotgun"><img alt="Combat shotgun.png" src="/images/thumb/Combat_shotgun.png/16px-Combat_shotgun.png" width="16" height="16" srcset="/images/thumb/Combat_shotgun.png/24px-Combat_shotgun.png 1.5x, /images/Combat_shotgun.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Combat_shotgun" title="Combat shotgun">Combat shotgun</a></li>
+<li><span class="navbox-icon"><a href="/Rocket_launcher" title="Rocket launcher"><img alt="Rocket launcher.png" src="/images/thumb/Rocket_launcher.png/16px-Rocket_launcher.png" width="16" height="16" srcset="/images/thumb/Rocket_launcher.png/24px-Rocket_launcher.png 1.5x, /images/Rocket_launcher.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Rocket_launcher" title="Rocket launcher">Rocket launcher</a></li>
+<li><span class="navbox-icon"><a href="/Flamethrower" title="Flamethrower"><img alt="Flamethrower.png" src="/images/thumb/Flamethrower.png/16px-Flamethrower.png" width="16" height="16" srcset="/images/thumb/Flamethrower.png/24px-Flamethrower.png 1.5x, /images/Flamethrower.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Flamethrower" title="Flamethrower">Flamethrower</a></li>
+<li><span class="navbox-icon"><a href="/Land_mine" title="Land mine"><img alt="Land mine.png" src="/images/thumb/Land_mine.png/16px-Land_mine.png" width="16" height="16" srcset="/images/thumb/Land_mine.png/24px-Land_mine.png 1.5x, /images/Land_mine.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Land_mine" title="Land mine">Land mine</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Ammo
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Firearm_magazine" title="Firearm magazine"><img alt="Firearm magazine.png" src="/images/thumb/Firearm_magazine.png/16px-Firearm_magazine.png" width="16" height="16" srcset="/images/thumb/Firearm_magazine.png/24px-Firearm_magazine.png 1.5x, /images/Firearm_magazine.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Firearm_magazine" title="Firearm magazine">Firearm magazine</a></li>
+<li><span class="navbox-icon"><a href="/Piercing_rounds_magazine" title="Piercing rounds magazine"><img alt="Piercing rounds magazine.png" src="/images/thumb/Piercing_rounds_magazine.png/16px-Piercing_rounds_magazine.png" width="16" height="16" srcset="/images/thumb/Piercing_rounds_magazine.png/24px-Piercing_rounds_magazine.png 1.5x, /images/Piercing_rounds_magazine.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Piercing_rounds_magazine" title="Piercing rounds magazine">Piercing rounds magazine</a></li>
+<li><span class="navbox-icon"><a href="/Uranium_rounds_magazine" title="Uranium rounds magazine"><img alt="Uranium rounds magazine.png" src="/images/thumb/Uranium_rounds_magazine.png/16px-Uranium_rounds_magazine.png" width="16" height="16" srcset="/images/thumb/Uranium_rounds_magazine.png/24px-Uranium_rounds_magazine.png 1.5x, /images/Uranium_rounds_magazine.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Uranium_rounds_magazine" title="Uranium rounds magazine">Uranium rounds magazine</a></li>
+<li><span class="navbox-icon"><a href="/Shotgun_shells" title="Shotgun shells"><img alt="Shotgun shells.png" src="/images/thumb/Shotgun_shells.png/16px-Shotgun_shells.png" width="16" height="16" srcset="/images/thumb/Shotgun_shells.png/24px-Shotgun_shells.png 1.5x, /images/Shotgun_shells.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Shotgun_shells" title="Shotgun shells">Shotgun shells</a></li>
+<li><span class="navbox-icon"><a href="/Piercing_shotgun_shells" title="Piercing shotgun shells"><img alt="Piercing shotgun shells.png" src="/images/thumb/Piercing_shotgun_shells.png/16px-Piercing_shotgun_shells.png" width="16" height="16" srcset="/images/thumb/Piercing_shotgun_shells.png/24px-Piercing_shotgun_shells.png 1.5x, /images/Piercing_shotgun_shells.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Piercing_shotgun_shells" title="Piercing shotgun shells">Piercing shotgun shells</a></li>
+<li><span class="navbox-icon"><a href="/Cannon_shell" title="Cannon shell"><img alt="Cannon shell.png" src="/images/thumb/Cannon_shell.png/16px-Cannon_shell.png" width="16" height="16" srcset="/images/thumb/Cannon_shell.png/24px-Cannon_shell.png 1.5x, /images/Cannon_shell.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Cannon_shell" title="Cannon shell">Cannon shell</a></li>
+<li><span class="navbox-icon"><a href="/Explosive_cannon_shell" title="Explosive cannon shell"><img alt="Explosive cannon shell.png" src="/images/thumb/Explosive_cannon_shell.png/16px-Explosive_cannon_shell.png" width="16" height="16" srcset="/images/thumb/Explosive_cannon_shell.png/24px-Explosive_cannon_shell.png 1.5x, /images/Explosive_cannon_shell.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Explosive_cannon_shell" title="Explosive cannon shell">Explosive cannon shell</a></li>
+<li><span class="navbox-icon"><a href="/Uranium_cannon_shell" title="Uranium cannon shell"><img alt="Uranium cannon shell.png" src="/images/thumb/Uranium_cannon_shell.png/16px-Uranium_cannon_shell.png" width="16" height="16" srcset="/images/thumb/Uranium_cannon_shell.png/24px-Uranium_cannon_shell.png 1.5x, /images/Uranium_cannon_shell.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Uranium_cannon_shell" title="Uranium cannon shell">Uranium cannon shell</a></li>
+<li><span class="navbox-icon"><a href="/Explosive_uranium_cannon_shell" title="Explosive uranium cannon shell"><img alt="Explosive uranium cannon shell.png" src="/images/thumb/Explosive_uranium_cannon_shell.png/16px-Explosive_uranium_cannon_shell.png" width="16" height="16" srcset="/images/thumb/Explosive_uranium_cannon_shell.png/24px-Explosive_uranium_cannon_shell.png 1.5x, /images/Explosive_uranium_cannon_shell.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Explosive_uranium_cannon_shell" title="Explosive uranium cannon shell">Explosive uranium cannon shell</a></li>
+<li><span class="navbox-icon"><a href="/Artillery_shell" title="Artillery shell"><img alt="Artillery shell.png" src="/images/thumb/Artillery_shell.png/16px-Artillery_shell.png" width="16" height="16" srcset="/images/thumb/Artillery_shell.png/24px-Artillery_shell.png 1.5x, /images/Artillery_shell.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Artillery_shell" title="Artillery shell">Artillery shell</a></li>
+<li><span class="navbox-icon"><a href="/Rocket" title="Rocket"><img alt="Rocket.png" src="/images/thumb/Rocket.png/16px-Rocket.png" width="16" height="16" srcset="/images/thumb/Rocket.png/24px-Rocket.png 1.5x, /images/Rocket.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Rocket" title="Rocket">Rocket</a></li>
+<li><span class="navbox-icon"><a href="/Explosive_rocket" title="Explosive rocket"><img alt="Explosive rocket.png" src="/images/thumb/Explosive_rocket.png/16px-Explosive_rocket.png" width="16" height="16" srcset="/images/thumb/Explosive_rocket.png/24px-Explosive_rocket.png 1.5x, /images/Explosive_rocket.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Explosive_rocket" title="Explosive rocket">Explosive rocket</a></li>
+<li><span class="navbox-icon"><a href="/Atomic_bomb" title="Atomic bomb"><img alt="Atomic bomb.png" src="/images/thumb/Atomic_bomb.png/16px-Atomic_bomb.png" width="16" height="16" srcset="/images/thumb/Atomic_bomb.png/24px-Atomic_bomb.png 1.5x, /images/Atomic_bomb.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Atomic_bomb" title="Atomic bomb">Atomic bomb</a></li>
+<li><span class="navbox-icon"><a href="/Flamethrower_ammo" title="Flamethrower ammo"><img alt="Flamethrower ammo.png" src="/images/thumb/Flamethrower_ammo.png/16px-Flamethrower_ammo.png" width="16" height="16" srcset="/images/thumb/Flamethrower_ammo.png/24px-Flamethrower_ammo.png 1.5x, /images/Flamethrower_ammo.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Flamethrower_ammo" title="Flamethrower ammo">Flamethrower ammo</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Capsules
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Grenade" title="Grenade"><img alt="Grenade.png" src="/images/thumb/Grenade.png/16px-Grenade.png" width="16" height="16" srcset="/images/thumb/Grenade.png/24px-Grenade.png 1.5x, /images/Grenade.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Grenade" title="Grenade">Grenade</a></li>
+<li><span class="navbox-icon"><a href="/Cluster_grenade" title="Cluster grenade"><img alt="Cluster grenade.png" src="/images/thumb/Cluster_grenade.png/16px-Cluster_grenade.png" width="16" height="16" srcset="/images/thumb/Cluster_grenade.png/24px-Cluster_grenade.png 1.5x, /images/Cluster_grenade.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Cluster_grenade" title="Cluster grenade">Cluster grenade</a></li>
+<li><span class="navbox-icon"><a href="/Poison_capsule" title="Poison capsule"><img alt="Poison capsule.png" src="/images/thumb/Poison_capsule.png/16px-Poison_capsule.png" width="16" height="16" srcset="/images/thumb/Poison_capsule.png/24px-Poison_capsule.png 1.5x, /images/Poison_capsule.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Poison_capsule" title="Poison capsule">Poison capsule</a></li>
+<li><span class="navbox-icon"><a href="/Slowdown_capsule" title="Slowdown capsule"><img alt="Slowdown capsule.png" src="/images/thumb/Slowdown_capsule.png/16px-Slowdown_capsule.png" width="16" height="16" srcset="/images/thumb/Slowdown_capsule.png/24px-Slowdown_capsule.png 1.5x, /images/Slowdown_capsule.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Slowdown_capsule" title="Slowdown capsule">Slowdown capsule</a></li>
+<li><span class="navbox-icon"><a href="/Defender_capsule" title="Defender capsule"><img alt="Defender capsule.png" src="/images/thumb/Defender_capsule.png/16px-Defender_capsule.png" width="16" height="16" srcset="/images/thumb/Defender_capsule.png/24px-Defender_capsule.png 1.5x, /images/Defender_capsule.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Defender_capsule" title="Defender capsule">Defender capsule</a></li>
+<li><span class="navbox-icon"><a href="/Distractor_capsule" title="Distractor capsule"><img alt="Distractor capsule.png" src="/images/thumb/Distractor_capsule.png/16px-Distractor_capsule.png" width="16" height="16" srcset="/images/thumb/Distractor_capsule.png/24px-Distractor_capsule.png 1.5x, /images/Distractor_capsule.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Distractor_capsule" title="Distractor capsule">Distractor capsule</a></li>
+<li><span class="navbox-icon"><a href="/Destroyer_capsule" title="Destroyer capsule"><img alt="Destroyer capsule.png" src="/images/thumb/Destroyer_capsule.png/16px-Destroyer_capsule.png" width="16" height="16" srcset="/images/thumb/Destroyer_capsule.png/24px-Destroyer_capsule.png 1.5x, /images/Destroyer_capsule.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Destroyer_capsule" title="Destroyer capsule">Destroyer capsule</a></li>
+<li><span class="navbox-icon"><a href="/Discharge_defense_remote" title="Discharge defense remote"><img alt="Discharge defense remote.png" src="/images/thumb/Discharge_defense_remote.png/16px-Discharge_defense_remote.png" width="16" height="16" srcset="/images/thumb/Discharge_defense_remote.png/24px-Discharge_defense_remote.png 1.5x, /images/Discharge_defense_remote.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Discharge_defense_remote" title="Discharge defense remote">Discharge defense remote</a></li>
+<li><span class="navbox-icon"><a href="/Artillery_targeting_remote" title="Artillery targeting remote"><img alt="Artillery targeting remote.png" src="/images/thumb/Artillery_targeting_remote.png/16px-Artillery_targeting_remote.png" width="16" height="16" srcset="/images/thumb/Artillery_targeting_remote.png/24px-Artillery_targeting_remote.png 1.5x, /images/Artillery_targeting_remote.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Artillery_targeting_remote" title="Artillery targeting remote">Artillery targeting remote</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Armor
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Light_armor" title="Light armor"><img alt="Light armor.png" src="/images/thumb/Light_armor.png/16px-Light_armor.png" width="16" height="16" srcset="/images/thumb/Light_armor.png/24px-Light_armor.png 1.5x, /images/Light_armor.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Light_armor" title="Light armor">Light armor</a></li>
+<li><span class="navbox-icon"><a href="/Heavy_armor" title="Heavy armor"><img alt="Heavy armor.png" src="/images/thumb/Heavy_armor.png/16px-Heavy_armor.png" width="16" height="16" srcset="/images/thumb/Heavy_armor.png/24px-Heavy_armor.png 1.5x, /images/Heavy_armor.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Heavy_armor" title="Heavy armor">Heavy armor</a></li>
+<li><span class="navbox-icon"><a href="/Modular_armor" title="Modular armor"><img alt="Modular armor.png" src="/images/thumb/Modular_armor.png/16px-Modular_armor.png" width="16" height="16" srcset="/images/thumb/Modular_armor.png/24px-Modular_armor.png 1.5x, /images/Modular_armor.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Modular_armor" title="Modular armor">Modular armor</a></li>
+<li><span class="navbox-icon"><a href="/Power_armor" title="Power armor"><img alt="Power armor.png" src="/images/thumb/Power_armor.png/16px-Power_armor.png" width="16" height="16" srcset="/images/thumb/Power_armor.png/24px-Power_armor.png 1.5x, /images/Power_armor.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Power_armor" title="Power armor">Power armor</a></li>
+<li><span class="navbox-icon"><a href="/Power_armor_MK2" title="Power armor MK2"><img alt="Power armor MK2.png" src="/images/thumb/Power_armor_MK2.png/16px-Power_armor_MK2.png" width="16" height="16" srcset="/images/thumb/Power_armor_MK2.png/24px-Power_armor_MK2.png 1.5x, /images/Power_armor_MK2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Power_armor_MK2" title="Power armor MK2">Power armor MK2</a></li></ul>
+</div>
+</td>
+</tr>
+
+
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Armor modules
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Portable_solar_panel" title="Portable solar panel"><img alt="Portable solar panel.png" src="/images/thumb/Portable_solar_panel.png/16px-Portable_solar_panel.png" width="16" height="16" srcset="/images/thumb/Portable_solar_panel.png/24px-Portable_solar_panel.png 1.5x, /images/Portable_solar_panel.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Portable_solar_panel" title="Portable solar panel">Portable solar panel</a></li>
+<li><span class="navbox-icon"><a href="/Portable_fusion_reactor" title="Portable fusion reactor"><img alt="Portable fusion reactor.png" src="/images/thumb/Portable_fusion_reactor.png/16px-Portable_fusion_reactor.png" width="16" height="16" srcset="/images/thumb/Portable_fusion_reactor.png/24px-Portable_fusion_reactor.png 1.5x, /images/Portable_fusion_reactor.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Portable_fusion_reactor" title="Portable fusion reactor">Portable fusion reactor</a></li>
+<li><span class="navbox-icon"><a href="/Energy_shield" title="Energy shield"><img alt="Energy shield.png" src="/images/thumb/Energy_shield.png/16px-Energy_shield.png" width="16" height="16" srcset="/images/thumb/Energy_shield.png/24px-Energy_shield.png 1.5x, /images/Energy_shield.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Energy_shield" title="Energy shield">Energy shield</a></li>
+<li><span class="navbox-icon"><a href="/Energy_shield_MK2" title="Energy shield MK2"><img alt="Energy shield MK2.png" src="/images/thumb/Energy_shield_MK2.png/16px-Energy_shield_MK2.png" width="16" height="16" srcset="/images/thumb/Energy_shield_MK2.png/24px-Energy_shield_MK2.png 1.5x, /images/Energy_shield_MK2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Energy_shield_MK2" title="Energy shield MK2">Energy shield MK2</a></li>
+<li><span class="navbox-icon"><a href="/Personal_battery" title="Personal battery"><img alt="Personal battery.png" src="/images/thumb/Personal_battery.png/16px-Personal_battery.png" width="16" height="16" srcset="/images/thumb/Personal_battery.png/24px-Personal_battery.png 1.5x, /images/Personal_battery.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Personal_battery" title="Personal battery">Personal battery</a></li>
+<li><span class="navbox-icon"><a href="/Personal_battery_MK2" title="Personal battery MK2"><img alt="Personal battery MK2.png" src="/images/thumb/Personal_battery_MK2.png/16px-Personal_battery_MK2.png" width="16" height="16" srcset="/images/thumb/Personal_battery_MK2.png/24px-Personal_battery_MK2.png 1.5x, /images/Personal_battery_MK2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Personal_battery_MK2" title="Personal battery MK2">Personal battery MK2</a></li>
+<li><span class="navbox-icon"><a href="/Personal_laser_defense" title="Personal laser defense"><img alt="Personal laser defense.png" src="/images/thumb/Personal_laser_defense.png/16px-Personal_laser_defense.png" width="16" height="16" srcset="/images/thumb/Personal_laser_defense.png/24px-Personal_laser_defense.png 1.5x, /images/Personal_laser_defense.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Personal_laser_defense" title="Personal laser defense">Personal laser defense</a></li>
+<li><span class="navbox-icon"><a href="/Discharge_defense" title="Discharge defense"><img alt="Discharge defense.png" src="/images/thumb/Discharge_defense.png/16px-Discharge_defense.png" width="16" height="16" srcset="/images/thumb/Discharge_defense.png/24px-Discharge_defense.png 1.5x, /images/Discharge_defense.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Discharge_defense" title="Discharge defense">Discharge defense</a></li>
+<li><span class="navbox-icon"><a href="/Exoskeleton" title="Exoskeleton"><img alt="Exoskeleton.png" src="/images/thumb/Exoskeleton.png/16px-Exoskeleton.png" width="16" height="16" srcset="/images/thumb/Exoskeleton.png/24px-Exoskeleton.png 1.5x, /images/Exoskeleton.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Exoskeleton" title="Exoskeleton">Exoskeleton</a></li>
+<li><span class="navbox-icon"><a href="/Personal_roboport" title="Personal roboport"><img alt="Personal roboport.png" src="/images/thumb/Personal_roboport.png/16px-Personal_roboport.png" width="16" height="16" srcset="/images/thumb/Personal_roboport.png/24px-Personal_roboport.png 1.5x, /images/Personal_roboport.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Personal_roboport" title="Personal roboport">Personal roboport</a></li>
+<li><span class="navbox-icon"><a href="/Personal_roboport_MK2" title="Personal roboport MK2"><img alt="Personal roboport MK2.png" src="/images/thumb/Personal_roboport_MK2.png/16px-Personal_roboport_MK2.png" width="16" height="16" srcset="/images/thumb/Personal_roboport_MK2.png/24px-Personal_roboport_MK2.png 1.5x, /images/Personal_roboport_MK2.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Personal_roboport_MK2" title="Personal roboport MK2">Personal roboport MK2</a></li>
+<li><span class="navbox-icon"><a href="/Nightvision" title="Nightvision"><img alt="Nightvision.png" src="/images/thumb/Nightvision.png/16px-Nightvision.png" width="16" height="16" srcset="/images/thumb/Nightvision.png/24px-Nightvision.png 1.5x, /images/Nightvision.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Nightvision" title="Nightvision">Nightvision</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p>Defense
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><span class="navbox-icon"><a href="/Stone_wall" title="Stone wall"><img alt="Stone wall.png" src="/images/thumb/Stone_wall.png/16px-Stone_wall.png" width="16" height="16" srcset="/images/thumb/Stone_wall.png/24px-Stone_wall.png 1.5x, /images/Stone_wall.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Stone_wall" title="Stone wall">Stone wall</a></li>
+<li><span class="navbox-icon"><a href="/Gate" title="Gate"><img alt="Gate.png" src="/images/thumb/Gate.png/16px-Gate.png" width="16" height="16" srcset="/images/thumb/Gate.png/24px-Gate.png 1.5x, /images/Gate.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Gate" title="Gate">Gate</a></li>
+<li><span class="navbox-icon"><a href="/Gun_turret" title="Gun turret"><img alt="Gun turret.png" src="/images/thumb/Gun_turret.png/16px-Gun_turret.png" width="16" height="16" srcset="/images/thumb/Gun_turret.png/24px-Gun_turret.png 1.5x, /images/Gun_turret.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Gun_turret" title="Gun turret">Gun turret</a></li>
+<li><span class="navbox-icon"><a href="/Laser_turret" title="Laser turret"><img alt="Laser turret.png" src="/images/thumb/Laser_turret.png/16px-Laser_turret.png" width="16" height="16" srcset="/images/thumb/Laser_turret.png/24px-Laser_turret.png 1.5x, /images/Laser_turret.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Laser_turret" title="Laser turret">Laser turret</a></li>
+<li><span class="navbox-icon"><a href="/Flamethrower_turret" title="Flamethrower turret"><img alt="Flamethrower turret.png" src="/images/thumb/Flamethrower_turret.png/16px-Flamethrower_turret.png" width="16" height="16" srcset="/images/thumb/Flamethrower_turret.png/24px-Flamethrower_turret.png 1.5x, /images/Flamethrower_turret.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Flamethrower_turret" title="Flamethrower turret">Flamethrower turret</a></li>
+<li><span class="navbox-icon"><a href="/Artillery_turret" title="Artillery turret"><img alt="Artillery turret.png" src="/images/thumb/Artillery_turret.png/16px-Artillery_turret.png" width="16" height="16" srcset="/images/thumb/Artillery_turret.png/24px-Artillery_turret.png 1.5x, /images/Artillery_turret.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Artillery_turret" title="Artillery turret">Artillery turret</a></li>
+<li><span class="navbox-icon"><a href="/Radar" title="Radar"><img alt="Radar.png" src="/images/thumb/Radar.png/16px-Radar.png" width="16" height="16" srcset="/images/thumb/Radar.png/24px-Radar.png 1.5x, /images/Radar.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Radar" title="Radar">Radar</a></li>
+<li><span class="navbox-icon"><a href="/Rocket_silo" title="Rocket silo"><img alt="Rocket silo.png" src="/images/thumb/Rocket_silo.png/16px-Rocket_silo.png" width="16" height="16" srcset="/images/thumb/Rocket_silo.png/24px-Rocket_silo.png 1.5x, /images/Rocket_silo.png 2x" /></a><span class="navbox-icon-text"></span></span> <a href="/Rocket_silo" title="Rocket silo">Rocket silo</a></li></ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="group-data" style="background:#bbb">
+<div>
+<p><a href="/Factorio:Navigation" title="Factorio:Navigation">Navigation</a>
+</p>
+</div>
+</td>
+
+<td class="list-data" style="background:#ddd">
+<div class="hlist">
+<ul><li><a href="/Template:LogisticsNav" title="Template:LogisticsNav">Logistics</a></li>
+<li><a href="/Template:ProductionNav" title="Template:ProductionNav">Production</a></li>
+<li><a href="/Template:IntermediateNav" title="Template:IntermediateNav">Intermediate products</a></li>
+<li><a href="/Template:TechNav" title="Template:TechNav">Technology</a></li></ul>
+</div>
+</td>
+</tr>
+
+
+
+
+
+
+</tbody></table>
+</div>
+
+<!-- 
+NewPP limit report
+Cached time: 20190207210333
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 1.580 seconds
+Real time usage: 1.894 seconds
+Preprocessor visited node count: 48310/1000000
+Preprocessor generated node count: 14299/1000000
+Post‐expand include size: 125341/2097152 bytes
+Template argument size: 71579/2097152 bytes
+Highest expansion depth: 26/40
+Expensive parser function count: 95/10000
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5607/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1673.600      1 -total
+ 49.40%  826.792    162 Template:ConvertName
+ 46.40%  776.511      1 Template:CombatNav
+ 45.79%  766.402      1 Template:Navbox
+ 44.51%  744.935     55 Template:NavboxIconLink
+ 44.17%  739.292      1 Infobox:Submachine_gun
+ 44.06%  737.417      1 Template:Infobox
+ 30.83%  515.930     15 Template:Infobox/vrow
+ 27.01%  452.070     25 Template:Icon/special
+ 25.17%  421.221     26 Template:Icon
+-->
+</div>
+<!-- Saved in parser cache with key mediawiki-wiki:pcache:idhash:31846-0!canonical and timestamp 20190207210331 and revision id 165035
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.factorio.com/index.php?title=Submachine_gun&amp;oldid=165035">https://wiki.factorio.com/index.php?title=Submachine_gun&amp;oldid=165035</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:English_page" title="Category:English page">English page</a></li><li><a href="/Category:Combat" title="Category:Combat">Combat</a></li><li><a href="/Category:Weapons" title="Category:Weapons">Weapons</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Submachine+gun" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li><li id="pt-createaccount"><a href="/Special:RequestAccount" title="You are encouraged to create an account and log in; however, it is not mandatory">Request account</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/Submachine_gun"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Submachine_gun&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/Submachine_gun" >View</a></span></li>
+															<li id="ca-viewsource"><span><a href="/index.php?title=Submachine_gun&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Submachine_gun&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">History</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search the Official Factorio Wiki" title="Search Official Factorio Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-Random-page"><a href="https://wiki.factorio.com/Special:RandomRootpage" rel="nofollow">Random page</a></li><li id="n-Wiki-rules"><a href="https://wiki.factorio.com/Factorio:Wiki_rules" rel="nofollow">Wiki rules</a></li><li id="n-Wiki-style-guide"><a href="https://wiki.factorio.com/Factorio:Style_guide" rel="nofollow">Wiki style guide</a></li><li id="n-Editor-noticeboard"><a href="https://wiki.factorio.com/Factorio:Editor_noticeboard" rel="nofollow">Editor noticeboard</a></li><li id="n-Admin-noticeboard"><a href="https://wiki.factorio.com/Factorio:Admin_noticeboard" rel="nofollow">Admin noticeboard</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Portals' aria-labelledby='p-Portals-label'>
+			<h3 id='p-Portals-label'>Portals</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Official-Website"><a href="http://www.factorio.com/" rel="nofollow">Official Website</a></li><li id="n-Official-Forum"><a href="http://forums.factorio.com" rel="nofollow">Official Forum</a></li><li id="n-Official-Subreddit"><a href="https://reddit.com/r/factorio" rel="nofollow">Official Subreddit</a></li><li id="n-Official-Mod-Portal"><a href="http://mods.factorio.com" rel="nofollow">Official Mod Portal</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Editor_Help' aria-labelledby='p-Editor_Help-label'>
+			<h3 id='p-Editor_Help-label'>Editor Help</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Mediawiki-general-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">Mediawiki general help</a></li><li id="n-Formatting"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Formatting">Formatting</a></li><li id="n-Images"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Images">Images</a></li><li id="n-Tables"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Tables">Tables</a></li><li id="n-Redirects"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Redirects">Redirects</a></li><li id="n-Templates"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Templates">Templates</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Submachine_gun" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Submachine_gun" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Submachine_gun&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Submachine_gun&amp;oldid=165035" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Submachine_gun&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-custom-tb' aria-labelledby='p-custom-tb-label'>
+			<h3 id='p-custom-tb-label'>custom-tb</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Purge-page-cache"><a href="https://wiki.factorio.com/index.php?title=Submachine_gun&amp;action=purge" rel="nofollow">Purge page cache</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 27 October 2018, at 10:11.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/Factorio:Privacy_policy" title="Factorio:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/Factorio:About" title="Factorio:About">About Official Factorio Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/Factorio:General_disclaimer" title="Factorio:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="/resources/assets/licenses/cc-by-nc-sa.png" alt="CC BY-NC-SA 3.0" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.580","walltime":"1.894","ppvisitednodes":{"value":48310,"limit":1000000},"ppgeneratednodes":{"value":14299,"limit":1000000},"postexpandincludesize":{"value":125341,"limit":2097152},"templateargumentsize":{"value":71579,"limit":2097152},"expansiondepth":{"value":26,"limit":40},"expensivefunctioncount":{"value":95,"limit":10000},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5607,"limit":5000000},"timingprofile":["100.00% 1673.600      1 -total"," 49.40%  826.792    162 Template:ConvertName"," 46.40%  776.511      1 Template:CombatNav"," 45.79%  766.402      1 Template:Navbox"," 44.51%  744.935     55 Template:NavboxIconLink"," 44.17%  739.292      1 Infobox:Submachine_gun"," 44.06%  737.417      1 Template:Infobox"," 30.83%  515.930     15 Template:Infobox/vrow"," 27.01%  452.070     25 Template:Icon/special"," 25.17%  421.221     26 Template:Icon"]},"cachereport":{"timestamp":"20190207210333","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":81});});</script>
+	</body>
+<!-- Cached/compressed 20190207211941 -->
+</html>
