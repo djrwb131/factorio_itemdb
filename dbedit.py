@@ -1,12 +1,24 @@
 import sqlite3 as sql
 import tkinter as tk
 
+# local
+import lualoader
+
+# TODO: implement technology tree
+
 class App(tk.Frame):
     def __init__(self, master=None):
         tk.Frame.__init__(self,master)
         self.db=sql.connect("itemdb.s3db")
         self.grid(sticky=tk.N+tk.S+tk.E+tk.W)
         self.createWidgets()
+        try:
+            self.recreateDBFromInstall()
+        except Exception as e:
+            self.db.close()
+            raise e
+        self.updateItemList()
+        self.updateItemReqList()
 
 
     def createItemNameRow(self,ri):
@@ -209,10 +221,58 @@ class App(tk.Frame):
         self.quitButton = tk.Button(self, text='Quit', command=self.quit)
         self.quitButton.grid(row=ri,column=6,sticky=tk.N+tk.E)
 
+    def regenDB(self):
+        with open("sqlite.schema") as schema:
+            print("Regenerating database...")
+            lines = schema.read().split(';')
+            for line in lines:
+                try:
+                    print(line, ';')
+                    c = self.db.cursor()
+                    c.execute(line + ';')
+                    c.close()
+                    self.db.commit()
+                except sql.OperationalError as oe:
+                    self.db.close()
+                    raise oe
+                
+    def recreateDBFromInstall(self):
+        self.regenDB()
+        self.recipes, self.technologies = lualoader.getRecipesAndTech()
+        c=self.db.cursor()
+        c.execute("DELETE FROM item;")
+        for recipe in self.recipes:
+            n = recipe['name']
+            try:
+                t = recipe['normal']['energy_required']
+            except KeyError:
+                t = lualoader.DEFAULT_ENERGY_REQUIRED
+            c.execute('INSERT INTO item(name,time) VALUES(?,?);',(n,t))
+        c.execute("DELETE FROM item_req;")
+        for recipe in self.recipes:
+            try:
+                if 'ingredients' in recipe:
+                    ingredients = recipe['ingredients']
+                else:
+                    ingredients = recipe['normal']['ingredients']
+            except KeyError as ke:
+                print('ingredients not found: [%s]' % str(recipe))
+                raise ke
+            for dep in ingredients.values():
+                print(recipe['name'])
+                print(dep)
+                if 1 in dep and 2 in dep:
+                    req = dep[1]
+                    amt = dep[2]
+                else:
+                    req = dep['name']
+                    amt = dep['amount']
+                c.execute("INSERT INTO item_req(itemID,reqID,amt) VALUES(?,?,?);",
+                          (recipe['name'],req,amt))
+        c.close()
+        self.db.commit()
         self.updateItemList()
-        self.updateItemReqList()
-
-
+        
     def addItem(self):
         try:
             n=self.item_NameSVar.get()
@@ -293,9 +353,9 @@ class App(tk.Frame):
             c=self.db.cursor()
             searchTerm=self.itemSearchSVar.get()
             s=""
-            c.execute( 'SELECT id,name,time FROM item WHERE name LIKE ? ;', ("%"+searchTerm+"%",) )
+            c.execute( 'SELECT name,time FROM item WHERE name LIKE ? ;', ("%"+searchTerm+"%",) )
             for i in c.fetchall():
-                s+=str(i[0])+":"+str(i[1].replace(" ","\ "))+":"+str(i[2])+" "
+                s+=str(i[0].replace(" ","\ "))+":"+str(i[1])+" "
 
             self.item_ItemListboxSVar.set(s)
             c.close()
@@ -309,9 +369,9 @@ class App(tk.Frame):
             c=self.db.cursor()
             searchTerm=self.itemReqSearchSVar.get()
             s=""
-            c.execute('SELECT i.name,i.id,r.name,r.id,ir.amt FROM item AS r \
-                      JOIN itemReqs AS ir ON r.id = ir.reqID \
-                      JOIN item AS i ON i.id = ir.itemID \
+            c.execute('SELECT i.name,r.name,ir.amt FROM item AS r \
+                      JOIN item_req AS ir ON r.name = ir.reqID \
+                      JOIN item AS i ON i.name = ir.itemID \
                       WHERE r.name LIKE ? or i.name LIKE ? ;',
                       ( ("%"+str(searchTerm)+"%","%"+str(searchTerm)+"%") )
                       )
@@ -331,7 +391,6 @@ class App(tk.Frame):
         self.db.close()
         super(App,self).quit()
 
-                                      
 app = App()
 app.mainloop()
 
