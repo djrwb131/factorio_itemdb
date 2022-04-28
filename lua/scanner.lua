@@ -10,6 +10,8 @@ dofile(arg[1].."\\prototypes\\recipe.lua")
 print("recipe.lua loaded!")
 dofile(arg[1].."\\prototypes\\technology.lua")
 print("technology.lua loaded!")
+dofile(arg[1].."\\prototypes\\item.lua")
+print("item.lua loaded!")
 print("Checking data table...")
 for key, value in pairs(data) do
     if type(value) == "function" then

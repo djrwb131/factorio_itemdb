@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Factorio Planner</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+
+  <script>
+    $( function() {
+      $(".req" ).hide();
+      $( "input" ).checkboxradio();
+      $( "input" ).click( function(e) {
+        $(this).parent().children("div.req").toggle("fade");
+      });
+
+    });
+  </script>
+<body>
+<h2>CHECKLIST</h2>
+  {% for stage_reqs in stages %}
+    <fieldset id="stage-req-{{stage_reqs.stage_number}}">
+        <legend>Stage {{stage_reqs.stage_number}}</legend>
+    {% if 'outputs' in stage_reqs %}
+    <fieldset>
+      <legend>Outputs</legend>
+      {% for stage_req,val in stage_reqs['outputs'].items() %}
+      <label for="stage-req-{{ stage_reqs.stage_number }}-{{ stage_req }}">
+          <b>{{ stage_req }} @ {{ val }} / minute</b><img src="/images/items/{{stage_req}}"></img>
+          <input type="checkbox" name="stage-req-{{ stage_reqs.stage_number }}-{{ stage_req }}"
+          id="stage-req-{{ stage_reqs.stage_number }}-{{ stage_req }}">
+          <div class="req">
+          <b>finished!</b>
+          </div>
+      </label>
+      {% endfor %}
+    </fieldset>
+    {% endif %}
+
+    {% if 'techs' in stage_reqs %}
+    <fieldset>
+      <legend>Technologies</legend>
+      {% for stage_req in stage_reqs['techs'] %}
+      <label for="stage-req-{{ stage_reqs.stage_number }}-{{ stage_req }}">
+          <b>{{ stage_req }}: {{ stage_req.getCost() }} </b><img src="/images/techs/{{stage_req}}"></img>
+          <input type="checkbox" name="stage-req-{{ stage_reqs.stage_number }}-{{ stage_req }}"
+          id="stage-req-{{ stage_reqs.stage_number }}-{{ stage_req }}">
+          <div class="req">
+          <b>finished!</b>
+          </div>
+      </label>
+      {% endfor %}
+    </fieldset>
+    {% endif %}
+    </fieldset>
+  {% endfor %}
+</body>
+</html>

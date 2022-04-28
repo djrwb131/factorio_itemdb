@@ -1,10 +1,11 @@
 import sqlite3 as sql
 import tkinter as tk
 
-# local
-import lualoader
+# THIS IS NO LONGER UPDATED!
+# The tk interface is no longer updated.
+# Please use the web interface.
 
-# TODO: implement technology tree
+import lualoader
 
 class App(tk.Frame):
     def __init__(self, master=None):

@@ -2,83 +2,117 @@ import json
 from pathlib import Path
 import subprocess as proc
 import string
-#TODO:  This whole thing is stupid. Rewrite this in Lua, then serialize to json,
-#       then import into Python. Simple.
+
 INSTALL_LOCATION=Path("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Factorio")
 DATA_LOCATION= INSTALL_LOCATION.joinpath("data")
 RECIPE_LOCATION_SUFFIX = Path("prototypes\\recipe.lua")
 RESEARCH_LOCATION_SUFFIX = Path("prototypes\\technology.lua")
+
 DEFAULT_ENERGY_REQUIRED = 0.5
+DEFAULT_RESULT_COUNT = 1
+
 LUA_PATH = '.\\lua\\?.lua;.\\lua\\?\\init.lua;' + str(DATA_LOCATION.joinpath('core')) + '\\?.lua;' + str(DATA_LOCATION.joinpath('core')) + '\\?\\init.lua'
 LUA_CPATH = '.\\lua\\?.dll'
 class Recipe:
     def __init__(self,d):
+        # Keep a copy of the raw data in case we need it
+        self.raw = d
         self.name = d['name']
-        #TODO: clean this up, should use temporary variables instead of indexing the dict param
+        # Link to research required, if applicable
+        self.unlocked_by = None
+
+        # There are a few ways information is serialized in the factorio data files.
+        # This area of code sanitizes the serialized data.
+
+        # Honestly, who even plays expensive mode?
         if 'normal' in d:
-            d['ingredients'] = d['normal']['ingredients']
-            if 'result' in d['normal']:
-                d['result'] = d['normal']['result']
-            else:
-                d['results'] = d['normal']['results']
-        self.ingredients = [
-                (d['ingredients'][x]['name'], d['ingredients'][x]['amount'])
-                    if 'type' in d['ingredients'][x]
-                else (d['ingredients'][x][1],d['ingredients'][x][2])
-                for x in d['ingredients']
-            ]
-        if 'energy_required' in d:
-            self.time = d['energy_required']
+            ingr = d['normal']
         else:
-            self.time = DEFAULT_ENERGY_REQUIRED
-        if 'result' in d:
-            if 'result_count' in d:
-                rc = d['result_count']
-            else:
-                rc = 1
-            self.results = [ (d['result'],rc) ]
+            ingr = d
+
+        if 'energy_required' in ingr:
+            self.energy_required = ingr['energy_required']
         else:
-            self.results = [
-                (d['results'][r]['name'], d['results'][r]['amount'])
-                    if 'type' in d['results'][r] else
-                (d['results'][r]['name'], d['results'][r]['probability'])
-                    if 'probability' in d['results'][r] else
-                (d['results'][r][1],d['results'][r][2])
-                for r in d['results'].keys()
-            ]
+            self.energy_required = DEFAULT_ENERGY_REQUIRED
             
+        # Sanitize result data
+        if 'result' in ingr:
+            if 'result_count' in ingr:
+                rc = ingr['result_count']
+            else:
+                rc = DEFAULT_RESULT_COUNT
+            self.results = (  (ingr['result'],rc), )
+        elif 'results' in ingr:
+            self.results = []
+            for r in ingr['results']:
+                if isinstance(r,dict):
+                    self.results.append( (r['name'],r['amount']))
+                elif isinstance(r,list):
+                    self.results.append( tuple(r) )
+                else:
+                    print("ERROR IN RECIPE " + self.name + ": results were malformed")
+                    print(self.raw['results'])
+            self.results = tuple(self.results)
+        else:
+            print("ERROR IN RECIPE " + self.name + ": no recipe results?")
+        self.ingredients = ( (x[0],x[1]) if isinstance(x,list) else (x['name'],x['amount']) for x in ingr['ingredients'] )
+            
+    def __hash__(self):
+        return hash(self.name)
     def __eq__(self,other):
         return self.name == other
     def __str__(self):
         return self.name
-
-
+RED_TECH = "automation-science-pack"
+GREEN_TECH = "logistic-science-pack"
+GREY_TECH = "military-science-pack"
+GRAY_TECH = GREY_TECH
+BLUE_TECH = "chemical-science-pack"
+PURPLE_TECH = "production-science-pack"
+YELLOW_TECH = "utility-science-pack"
+WHITE_TECH = "space-science-pack"
+# for default values
+TECH_PACK_DICT = {
+    RED_TECH: 0,
+    GREEN_TECH: 0,
+    GREY_TECH: 0,
+    BLUE_TECH: 0,
+    PURPLE_TECH: 0,
+    YELLOW_TECH: 0,
+    WHITE_TECH:0 
+}
 class Tech:
     def __init__(self,d):
+        self.raw = d
         self.name = d['name']
-        self.ingredients = [ (d['unit']['ingredients'][r][1], d['unit']['ingredients'][r][2]) for r in d['unit']['ingredients'] ]
-        self.time = d['unit']['time']
-        self.count = d['unit']['count'] if 'count' in d['unit'] else None
-        self.formulaic = 'count_formula' in d['unit']
-        if self.formulaic:
+        self.ingredients = tuple(d['unit']['ingredients'])
+
+        if 'count_formula' in d['unit']:
             count_formula = d['unit']['count_formula']
-            print('[', count_formula,']')
-            
-            for i in range(len(count_formula)):
+
+            #TODO: make this work in every case
+            for i in range(1,len(count_formula)):
                 if not count_formula[i] in string.digits:
-                    if count_formula[i] == '(':
+                    if count_formula[i] == '(' and count_formula[i-1] in string.digits:
                         self.count_formula = count_formula[0:i] + '*' + count_formula[i:]
                     else:
                         self.count_formula = count_formula
                     break
             l = locals()
-            l['L'] = int(self.name[-1])
+            l['L'] = int(self.name.split('-')[-1])
+            # tsk tsk...
             exec("g = " + self.count_formula,l)
             self.count = l['g']
-        self.prerequisites = [x for x in d['prerequisites'].values()] if 'prerequisites' in d else None
+        else:
+            self.count = d['unit']['count']
+        
+        if 'prerequisites' in d:
+            self.prerequisites = d['prerequisites']
+        else:
+            self.prerequisites = None
         self.recipes_unlocked = None
         if 'effects' in d:
-            self.recipes_unlocked = [x['recipe'] for x in d['effects'].values() if x['type'] == 'unlock-recipe']
+            self.recipes_unlocked = tuple(x['recipe'] for x in d['effects'] if x['type'] == 'unlock-recipe')
         
     def __eq__(self,other):
         return self.name == other
@@ -87,7 +121,7 @@ class Tech:
     def __repr__(self):
         return self.name
     def __hash__(self):
-        return hash(self.name + str(self.ingredients))
+        return hash(self.name)
     
     def getCost(self):
         return [ (x[0],x[1]*self.count) for x in self.ingredients ]
@@ -132,8 +166,11 @@ def scanLua():
         for directory in [ x for x in DATA_LOCATION.iterdir() if x.is_dir() and x.name != 'core' ]:
             dirs.append(directory)
             print("Directory: " + str(directory) )
+            #TODO: make these paths multiplatform
             lua_path += LUA_PATH + ';' + str(directory) + "\\?.lua;" + str(directory) + "\\?\\init.lua"
-            process_return = proc.run("lua\\lua lua\\scanner.lua \"" + str(directory) + "\" " + str(directory.name),capture_output=True, env = { "LUA_PATH": lua_path } )
+            #TODO: fix pathing here
+            process_return = proc.run("lua\\lua lua\\scanner.lua \"" + str(directory) + "\" " + str(directory.name),capture_output=True, env = { "LUA_PATH": lua_path, "LUA_CPATH":  LUA_CPATH } )
+            print(process_return.returncode)
             print(process_return.stdout.decode('utf-8'))
             print(process_return.stderr.decode('utf-8'))
     print("Scanning JSON files...")
@@ -141,11 +178,58 @@ def scanLua():
     for d in dirs:
         with open(d.name + ".json") as data_json:
             data.update(json.load(data_json))
-    print("Recipes:")
-    print(data["recipe"].keys())
-    print("Technologies:")
-    print(data["technology"].keys())
+
+    #TODO: Implement Item class
+    for i in data["item"].values():
+        if 'science' in i["name"]:
+            print(i)
+        items[i["name"]] = i
+
+    for i in data["tool"].values():
+        if 'science' in i["name"]:
+            print(i)
+        items[i["name"]] = i
+        
+    for r in data["recipe"]:
+        rc = Recipe(data["recipe"][r])
+        recipes[rc] = rc
+    
+    for t in data["technology"]:
+        tc = Tech(data["technology"][t])
+        if tc.recipes_unlocked:
+            for r in tc.recipes_unlocked:
+                recipes[r].unlocked_by = tc
+        technologies[tc] = tc
+
+    for t in technologies.values():
+        if t.prerequisites is not None:
+            for p in range(len(t.prerequisites)):
+                t.prerequisites[p] = technologies[t.prerequisites[p]]
+            t.prerequisites = tuple(t.prerequisites)
+
+    print("Items:",str(len(items)))
+    print("Recipes:",str(len(recipes)))
+    print("Technologies:", str(len(technologies)))
+
     return (items, recipes, technologies)
 
 
 items, recipes, techs = scanLua()
+def filter_techs(packs,techlist = techs,exclusive = True):
+    if isinstance(packs,str):
+        packs = set( (packs,) )
+    elif isinstance(packs,list) or isinstance(packs,tuple):
+        packs = set(packs)
+    elif isinstance(packs,dict):
+        packs = set(packs.values())
+    elif isinstance(packs,set):
+        pass
+    else:
+        return None
+    plen = len(packs)
+    ret = set()
+    for t in techlist:
+        if not exclusive or exclusive and len(t.ingredients) == plen:
+            if len(set(x[0] for x in t.ingredients).intersection(packs)) == plen:
+                ret.add(t)
+    return ret
